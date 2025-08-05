@@ -1,26 +1,102 @@
+/* @font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/roboto/Roboto-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+} */
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+    --color-accent: #0360FF;
+    --color-bg: #FFFFFF;
+    --color-dark: #141414;
+    --color-light: #F5F5F7;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-dark);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.massive1{
+    @apply text-[clamp(3rem,7.917vw,9.5rem)] font-extrabold  leading-tight
+}
+.massive2{
+    @apply text-[clamp(1.5rem,2.917vw,3.5rem)] font-bold
+}
+.main{
+    @apply text-[clamp(1.25rem,1.667vw,2rem)] font-semibold
+}
+.sub{
+    @apply text-[clamp(1rem,1.25vw,1.5rem)] font-medium
+}
+
+
+.massive1G{
+    @apply text-[clamp(3rem,7.917vw,9.5rem)] font-extrabold  leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
+}
+.massive2G{
+    @apply text-[clamp(1.5rem,2.917vw,3.5rem)] font-bold leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
+}
+.mainG{
+    @apply text-[clamp(1.25rem,1.667vw,2rem)] font-semibold leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
+}
+.subG{
+    @apply text-[clamp(1rem,1.25vw,1.5rem)] font-medium leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
+}
+
+.para1{
+    @apply text-[clamp(0.875rem,0.833vw,1rem)] font-semibold leading-[clamp(1.375rem,0.833vw,1.5rem)] text-gray-700
+}
+.para2{
+    @apply text-[clamp(0.875rem,0.833vw,1rem)] font-medium leading-[clamp(1.375rem,0.833vw,1.5rem)] text-gray-600
+}
+.para3{
+    @apply text-[clamp(0.875rem,0.833vw,1rem)] font-normal leading-[clamp(1.375rem,0.833vw,1.5rem)] text-gray-600
+}
+.para4{
+    @apply text-[clamp(0.625rem,0.521vw,0.75rem)] font-normal leading-[clamp(1.125rem,0.521vw,1.25rem)] text-gray-500
 }

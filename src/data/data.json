@@ -1,0 +1,701 @@
+{
+    "aboutPage": {
+        "heading": "Oryvia’ A Development Based Company",
+        "heroImage": "/images/team.png",
+        "dividerImage": "/images/divider.jpg",
+        "heroImageAlt": "Team working together",
+        "dividerImageAlt": "Abstract swirl divider",
+        "intro": "At Oryvia, we specialize in crafting high-performance websites, scalable digital platforms, and tailored branding that help businesses thrive online. Every project we take on is built with strategy, precision, and creativity - because results matter.\nWe're not just service providers - we're your technology partners. From sleek Ul design to robust backend development, we offer full-stack solutions that are user-focused, conversion-driven, and built to scale with your growth.",
+        "servicesTitle": "We offer wide range of services",
+        "services": [
+            "UI/UX",
+            "Website Maintenance",
+            "Website Redesign",
+            "Custom Website"
+        ],
+        "approachTitle": "Our Approach",
+        "approachIntro": "We believe in getting things right the first time. Every line of code, every screen design, every brand element we deliver is focused on:",
+        "approachPoints": [
+            "Understanding your business goals",
+            "Providing expert consultation at every step",
+            "Delivering beyond expectation - not just \"done\"",
+            "Ensuring your investment brings real value"
+        ],
+        "whatSetsUsApartTitle": "What Sets Us Apart",
+        "whatSetsUsApartPoints": [
+            "We believe in complete transparency throughout every project. From the first discovery call to final handover, clients are kept in the loop with clear communication, real timelines, and honest feedback. There are no surprises — just clarity and confidence at every stage.",
+            "Our design philosophy is simple: premium quality with zero compromise. We provide multiple Prototype revision until our clients are fully satisfied. Every layout, color, and interaction is crafted with precision to ensure the final product isn’t just functional — it’s exceptional.",
+            "Behind every interface is powerful, clean code. We follow modern development standards to ensure that every website we build is fast, secure, scalable, and SEO-ready from the ground up. Performance is not an afterthought — it’s built into the foundation.",
+            "Our process is structured and client-centric. Regular check-ins, progress updates, and review sessions ensure your vision is always aligned with the final outcome. We work with you, not just for you, and value every step of collaboration.",
+            "Every project concludes with full documentation, source files, and system guides — so nothing is left unclear. Whether it’s content management, design systems, or backend access, we ensure you walk away empowered, not dependent.",
+            "And even after your site is live, we stay with you. Our post-launch support ensures your digital presence remains secure, stable, and up-to-date — because our relationship doesn’t end at delivery, it evolves with your growth.",
+            "Work of the highest caliber doesn't happen by accident. We leverage unique perspectives and our collective knowledge to build experiences that make an impact and move the heart."
+        ],
+        "finalCta": {
+            "title": "A Partnership, Not Just a Project",
+            "description": "Whether you're a startup, business owner, or scaling brand, we're here to amplify your digital\npresence with care, commitment, and complete professionalism. When we build\nfor you - we build like it's our own.",
+            "button": "Get in Touch",
+            "link": "/contact"
+        }
+    },
+    "services": {
+        "uiux": {
+            "title": "UIUX",
+            "description": "We craft intuitive and visually cohesive digital experiences that seamlessly align with your brand identity and user needs. Through a structured process involving brand integration, strategic wireframing, fidelity design, and comprehensive interface and system design, we transform concepts into functional, user-centered solutions. Our approach ensures every interaction is thoughtfully designed to enhance usability, engagement, and overall satisfaction.",
+            "image": "/images/uiux.avif",
+            "imageAlt": "Abstract digital art",
+            "animationName": "v1",
+            "services": [
+                {
+                    "title": "Brand Integration",
+                    "description": "Ensures that your product’s design reflects the brand’s identity—color schemes, typography, logos, and voice—creating a cohesive and memorable user experience."
+                },
+                {
+                    "title": "Wireframing",
+                    "description": "Creates basic structural layouts (blueprints) of a digital product, focusing on layout and navigation before adding visual details or content."
+                },
+                {
+                    "title": "High/Low Fidelity Design",
+                    "description": "Low-fidelity: Simple sketches or digital mockups to quickly visualize concepts.\nHigh-fidelity: Pixel-perfect, detailed designs that closely resemble the final product with colors, typography, and real content."
+                },
+                {
+                    "title": "UI Redesign",
+                    "description": "Revamps existing user interfaces to improve visual appeal, usability, and consistency while aligning with modern design standards and user expectations."
+                },
+                {
+                    "title": "System Design",
+                    "description": "Establishes a design system including reusable UI components, design tokens, and rules to maintain consistency and scalability across the entire product."
+                }
+            ]
+        },
+        "websiteRedesign": {
+            "title": "Website Redesign",
+            "description": "We transform existing websites into modern, high-performing digital platforms tailored to evolving business goals and audience expectations. Through thoughtful design enhancements, technical improvements, and strategic updates, we revitalize your site’s visual appeal, functionality, and user experience. Our comprehensive approach ensures your redesigned website not only looks contemporary but also operates seamlessly, supports SEO objectives, and effectively represents your brand in today’s dynamic digital landscape.",
+            "image": "/images/redesign.avif",
+            "imageAlt": "Abstract digital art",
+            "services": [
+                {
+                    "title": "UI/UX Revamp",
+                    "description": "Reimagining your website’s user interface and user experience to enhance usability, modernize its look, and better reflect your brand identity."
+                },
+                {
+                    "title": "Responsive Design",
+                    "description": "Ensuring your redesigned website adapts seamlessly across all devices and screen sizes, providing a consistent and user-friendly experience everywhere."
+                },
+                {
+                    "title": "Content & Visual Refresh",
+                    "description": "Updating and refining website visuals, graphics, and content to create a cohesive, engaging, and contemporary aesthetic."
+                },
+                {
+                    "title": "SEO & Performance Optimization",
+                    "description": "Enhancing site speed, structure, and on-page SEO to improve search rankings and deliver a smoother, faster browsing experience."
+                },
+                {
+                    "title": "Final Testing & Launch Support",
+                    "description": "Conducting comprehensive testing to identify and resolve issues, followed by hands-on support to ensure a successful and confident launch."
+                }
+            ]
+        },
+        "customWebsite": {
+            "title": "Custom Website",
+            "description": "We design and build bespoke websites tailored precisely to your brand and business goals. From initial discovery to launch, our process combines strategic planning, creative design, and robust development to deliver a website that’s visually distinctive, highly functional, and scalable. With a focus on user experience and advanced features, we help you stand out online and provide your audience with a seamless digital experience that drives results.",
+            "image": "/images/custom.avif",
+            "imageAlt": "Abstract digital art",
+            "services": [
+                {
+                    "title": "Consultation & Requirement Gathering",
+                    "description": "We begin by deeply understanding your business goals, audience, and vision. Through collaborative discussions and detailed research, we define a strategic roadmap and technical requirements to ensure the final website aligns perfectly with your objectives."
+                },
+                {
+                    "title": "Custom UI/UX",
+                    "description": "Crafting an entirely unique and visually compelling interface that reflects your brand identity. We focus on user-centered design principles to deliver an intuitive, seamless, and engaging experience that keeps visitors coming back."
+                },
+                {
+                    "title": "Frontend",
+                    "description": "Developing the client-facing part of your website with modern technologies and responsive design. We ensure smooth navigation, fast load times, and an interactive experience that feels natural across all devices and browsers."
+                },
+                {
+                    "title": "Backend",
+                    "description": "Building a solid, secure, and scalable server-side infrastructure to power your website. This includes database management, authentication systems, and all the behind-the-scenes processes that keep your site running reliably."
+                },
+                {
+                    "title": "Dynamic Features & Integration",
+                    "description": "Implementing custom functionalities, third-party APIs, and advanced interactive elements tailored to your business needs. From real-time updates to complex integrations, we make sure your website delivers powerful performance and flexibility."
+                }
+            ]
+        },
+        "websiteMaintenance": {
+            "title": "Website Maintenance",
+            "description": "Ensure your website stays secure, fast, and flawlessly functional with our dedicated maintenance service. We handle everything behind the scenes — keeping your site updated, protecting it against potential issues, and making sure it delivers a seamless experience for every visitor. With regular care and proactive attention, your website continues to reflect your brand’s quality and supports your business goals effortlessly.",
+            "image": "/images/maintenance.avif",
+            "imageAlt": "Abstract digital art",
+            "services": [
+                {
+                    "title": "Content Update",
+                    "description": "Regularly adding, editing, or refreshing website content to keep it relevant, engaging, and aligned with current brand messaging and audience needs."
+                },
+                {
+                    "title": "Performance Optimization",
+                    "description": "Improving website speed, reducing load times, optimizing assets, and ensuring smooth user experience across all devices."
+                },
+                {
+                    "title": "SEO Maintenance",
+                    "description": "Ongoing keyword analysis, meta updates, broken link fixes, and ensuring the site structure stays search-engine friendly to maintain or improve ranking."
+                },
+                {
+                    "title": "Support & Troubleshooting",
+                    "description": "Monitoring for bugs or issues, resolving technical errors promptly, and providing assistance to keep the website running seamlessly."
+                },
+                {
+                    "title": "Modules Updates",
+                    "description": "Updating CMS plugins, themes, or custom modules to their latest versions to ensure compatibility, security, and access to new features."
+                }
+            ]
+        }
+    },
+    "privacyPolicy": {
+        "title": "Oryvia Privacy Policy",
+        "description": "Oryvia (“Company”, “we”, “us”, or “our”) is committed to upholding the privacy, security, and data rights of all individuals (“you”, “your”) who access our website, communicate with us, or engage with our digital services. This Privacy Policy sets forth, in comprehensive detail, the categories of data we collect, the lawful basis for its processing, the manner in which such data is stored and secured, and your rights as a data subject under applicable privacy regulations.\nBy continuing to use our website, submitting information through digital forms, or entering into any service engagement with Oryvia, you confirm that you have reviewed, understood, and agreed to the terms outlined in this Policy.",
+        "items": [
+            {
+                "title": "Scope and Applicability",
+                "content": "This Privacy Policy is binding upon all individuals and entities who interact with Oryvia across any digital or electronic medium. It delineates the framework within which we collect, process, and manage information, and it applies unilaterally to all forms of engagement, whether direct or indirect, intentional or incidental.\nThis policy extends to, but is not limited to, the following environments and interactions:\n• Official Website: All user activity, data input, and browsing behavior occurring on or through our principal digital domain, www.oryvia.com, including any subdomains, landing pages, or affiliated web assets under our control.\n• Digital Correspondence & Communication: All modes of electronic engagement initiated via contact forms, lead capture interfaces, project inquiry submissions, consultation request modules, or through direct communication conducted via email, instant messaging platforms, or scheduling tools used by Oryvia for professional correspondence.\n• Operational and Project-Based Exchanges: Any personal or organizational information voluntarily or involuntarily disclosed during the lifecycle of a project — from initial  interaction and scoping through onboarding, active development, delivery, and post-deployment support. This includes files, assets, credentials, project briefs, design preferences, and any intellectual or proprietary information entrusted to us in the context of service execution.\nThis Privacy Policy remains applicable regardless of the nature of the device, geographic location of the user, or technological platform through which the interaction occurs, provided such engagement involves the exchange or exposure of personal, technical, or behavioral data within Oryvia’s digital ecosystem."
+            },
+            {
+                "title": "Categories of Information We Collect",
+                "content": "A. Personally Identifiable Information (PII)\nWe collects, stores, and processes certain categories of data that are capable of directly or indirectly identifying an individual or representing a specific business entity. This class of data, herein referred to as Personally Identifiable Information (PII), is obtained exclusively through voluntary user action or professional engagement.\nThe types of PII we may collect include, but are not limited to:\n• Full legal name\n• Email address (business or personal)\n• Contact number (mobile or landline)\n• Company name and professional designation, where applicable\n• Project-related inputs, including business goals, technical briefs, brand content, functional requirements, or any materials voluntarily provided during the initial consultation, inquiry, or onboarding process\nSuch data is acquired through the following means:\n• When you submit a contact form, project inquiry, or consultation request via our website or any associated digital portals\n• When you initiate or respond to direct communications via email, telephone, messaging applications, or calendaring tools used by Us\n• When you enter into a formal service agreement, proposal acceptance, or contractual relationship with Oryvia, thereby establishing a professional engagement\nAll collected PII is handled with the strictest confidentiality, governed by industry-standard security protocols, and used solely for the purposes explicitly defined within this policy and the scope of services rendered.\nB. Non-Personally Identifiable Information\nIn addition to personal data, We also collects and processes a range of technical and behavioral information that, in isolation, does not permit direct identification of any specific individual or entity. Such data, herein referred to as Non-Personally Identifiable Information (Non-PII), is typically aggregated, anonymized, and utilized to optimize digital performance, assess user behavior, and inform strategic improvements.\nThe categories of Non-PII we collect may include, but are not limited to:\n• Internet Protocol (IP) address, used for network diagnostics and geographic segmentation\n• Browser type and version, to ensure compatibility and performance across platforms\n• Device classification (e.g., desktop, mobile, tablet) and operating system metadata, for responsive design refinement\n• Approximate geographic location, derived through IP geolocation tools to analyze regional trends and access patterns\n• Referring URLs, landing pages, and the duration of user sessions, to evaluate navigation flow and content effectiveness\n• Interactional behavior within our website environment, including clicks, scrolls, bounce rates, and heatmap analytics\nThis data may be collected automatically through cookies, server logs, or third-party analytics tools.\nAll Non-PII is processed in accordance with applicable data protection regulations and is exclusively employed to enhance the usability, accessibility, and operational intelligence of our digital infrastructure. Where possible, such data is de-identified to preclude any unintentional association with personally identifiable records."
+            },
+            {
+                "title": "Legal Basis for Data Processing",
+                "content": "We processes personal and non-personal data in strict adherence to applicable data protection laws and regulatory standards, including, but not limited to, the General Data Protection Regulation (GDPR), the Information Technology Act, 2000 (India), and other relevant international and jurisdiction-specific privacy frameworks.\nOur data processing activities are lawfully grounded in one or more of the following legal bases:\n•⁠  ⁠Consent\nProcessing is undertaken only after you have provided explicit, informed, and unambiguous consent for specific purposes, such as subscribing to updates, submitting personal details through our website, or participating in consultations. Consent may be withdrawn at any time, without affecting the lawfulness of processing based on consent prior to its withdrawal.\n•⁠  ⁠Contractual Necessity\nIn circumstances where you engage Us for the provision of services, data processing is required for the execution and performance of a contractual agreement. This includes the processing of contact details, business data, and project-related inputs necessary for service fulfillment, delivery, and ongoing client communication.\n•⁠  ⁠Legitimate Interest\nWe may process certain categories of personal or behavioral data under the lawful doctrine of legitimate business interest, provided such interests are not overridden by your fundamental rights and freedoms. This includes, but is not limited to:\n• Monitoring and enhancing the performance, stability, and usability of our website\n• Improving service delivery and operational efficiency\n• Conducting internal analytics, business intelligence, and strategic evaluations\n• Communicating with clients or prospective clients for relationship management\nOryvia undertakes a balancing test to ensure that our legitimate interests are pursued in a fair, proportionate, and privacy-respecting manner.•⁠  ⁠Legal Obligation\nWe may process and disclose your data where such action is necessary for compliance with applicable legal mandates, judicial orders, regulatory inquiries, tax or audit requirements, or other statutory obligations imposed under the law.\nEach instance of data collection and processing is assessed on a case-by-case basis to ensure compliance with prevailing legal standards, and no data is processed beyond the scope required for the fulfillment of lawful and clearly defined objectives."
+            },
+            {
+                "title": "Purpose of Data Collection",
+                "content": "Our Team collects and processes both personally identifiable and non-identifiable data for explicit, legitimate, and contractually or operationally relevant purposes. All processing activities are confined to specific objectives necessary for the effective delivery of our services and the protection of our digital infrastructure, as well as for compliance and client engagement.\nOutlined below are the principal purposes for which your data may be processed:\n•⁠  ⁠Communication & Support\nTo facilitate responsive and informed communication, including acknowledgment of service inquiries, provision of consultations, clarification of requirements, project scoping, and both pre-engagement and post-engagement correspondence. This also encompasses technical or client support activities aimed at ensuring satisfaction and resolution of issues encountered during or after project delivery.\n•⁠  ⁠Service Fulfillment\nTo enable the planning, execution, and completion of professional services, including UI/UX design, website development, system integration, content deployment, and performance optimization. This involves managing your information throughout the project lifecycle, from initial proposal to final delivery and beyond, as per the mutually agreed scope of work.\n•⁠  ⁠User Experience Enhancement\nTo assess and interpret aggregate user behavior and technical interaction patterns on our digital platforms, with the objective of optimizing user interface (UI) design, user experience (UX) flow, feature relevance, and performance metrics. This is conducted through legitimate analytic methods and tools under appropriate confidentiality conditions.\n•⁠  ⁠Marketing and Outreach (subject to prior consent)\nTo deliver curated communications, such as service announcements, value-driven updates, industry insights, newsletters, event invitations, or promotional campaigns that may be of professional interest to you. Such communications are disseminated only upon obtaining your affirmative consent, which may be withdrawn at any time via the opt-out mechanism provided.\n•⁠  ⁠Security and Risk Mitigation\nTo proactively detect, monitor, and neutralize potential threats, fraudulent activities, unauthorized access attempts, and other forms of digital misuse that may compromise the integrity of our systems, client data, or brand credibility. This includes IP logging, behavioral pattern analysis, and cross-referencing technical events for anomaly detection."
+            },
+            {
+                "title": "⁠Cookies and Tracking Technologies",
+                "content": "We employs cookies and related tracking technologies to:\n• Preserve session continuity and user login states\n• Tailor website interactions and personalize content delivery\n• Perform statistical analysis and evaluate behavioral patterns for performance enhancement\nYou may manage or disable cookies through your browser settings at your discretion. Please note, however, that restricting cookies may limit the functionality or responsiveness of certain features on our website."
+            },
+            {
+                "title": "Disclosure of Information to Third Parties",
+                "content": "we do not sell, rent, trade, or otherwise disseminate your personal information to unaffiliated third parties for marketing or commercial exploitation.\nHowever, under specific and tightly controlled circumstances, we may disclose your data to third parties as follows:\n• Service Providers: Information may be shared with carefully vetted third-party vendors—such as cloud infrastructure providers, analytics platforms, customer relationship management (CRM) tools, or email service providers—strictly for the purpose of facilitating our service operations. All such disclosures are governed by enforceable confidentiality agreements and data processing contracts.\n• Legal Compliance: We may be legally compelled to disclose information where required by applicable law, court order, legal proceeding, or government or regulatory authority.\n• Business Transfers: In the event of a corporate transaction—such as a merger, acquisition, consolidation, or restructuring—client and user data may be transferred as part of the associated business assets, subject to appropriate safeguards and notification."
+            },
+            {
+                "title": "Data Retention Policy",
+                "content": "We adheres to a structured and purpose-driven data retention framework, ensuring that all personal, technical, and project-related data is retained only for the duration necessary to fulfill its legitimate and operational functions. Our retention practices are aligned with applicable legal standards, industry norms, and business obligations.\nWe retain personal data and associated project content for the following purposes:\n• To fulfill the contractual and service-related obligations for which the data was originally collected\n• To comply with statutory and regulatory requirements, including financial recordkeeping, audit trails, and tax reporting\n• To preserve accurate historical documentation of the services rendered, including assets developed, deliverables submitted, and communications exchanged\nIn addition to these core purposes, We may retain select non-sensitive project-related data (e.g., design assets, wireframes, development screenshots, UI layouts, and user flows) for inclusion in our internal project archive, as well as for external demonstration purposes such as case studies, presentations, or portfolio showcases. This practice is conducted under the following strict conditions:\n• No personally identifiable or confidential client data will be publicly disclosed without explicit written consent\n• Any identifiable branding, proprietary code, or sensitive business content will be excluded or redacted unless expressly permitted by the client\n• Materials used for showcasing will be curated to reflect creative or technical capabilities only, and not internal client processes or data\nAll retained data—whether used for archival or display purposes—is stored exclusively on our secure, access-controlled servers. Access is restricted to authorized personnel only, and data is never transferred to external storage environments or third parties without a lawful basis.\nAt the conclusion of the retention lifecycle—or upon receipt of a verifiable deletion request from the data subject—Oryvia will undertake irreversible erasure or anonymization of the data, using encryption-based overwriting and industry-validated sanitization protocols.\nOur data retention timelines may vary depending on the nature of the data, contractual duration, and applicable legal requirements, but all efforts are made to ensure data is not held longer than necessary for its intended and lawful use."
+            },
+            {
+                "title": "Data Security Measures",
+                "content": "At Oryvia, we recognize the importance of protecting the integrity, confidentiality, and availability of the data entrusted to us. We apply a series of reasonable and industry-aligned safeguards designed to minimize risks related to unauthorized access, misuse, or loss of personal and project-related information.\nWhile we have not formalized an advanced cybersecurity framework, we do implement practical, essential protections across our internal processes. These include:\n• Encrypted communication protocols to secure data shared through our website and digital forms\n• Controlled access to internal systems, where only authorized personnel involved in relevant projects may view or handle client data\n• Secure digital storage environments with layered permission protocols, ensuring access is limited and traceable\n• Regular maintenance and updates to the tools and platforms we rely on, helping reduce exposure to known security vulnerabilities\n• Use of trusted third-party services, selected based on their adherence to industry-standard security and compliance measures\nData you share with us—whether project briefs, assets, or communications—is stored in protected environments with access restrictions tailored to ensure responsible handling. We avoid unnecessary data duplication and follow structured internal protocols for managing sensitive client material.\nIt is important to acknowledge that while our protective measures significantly reduce risk, no digital system is immune to threats. As such, we do not guarantee absolute security. However, Oryvia is committed to acting with transparency, urgency, and accountability in the event of any suspected data incident. This includes promptly investigating the issue, mitigating its impact, and notifying affected parties in accordance with applicable laws and best practices."
+            },
+            {
+                "title": "Your Rights and Data Control",
+                "content": "In accordance with applicable data protection laws, individuals may exercise the following rights concerning their personal data:• Access: Request access to the personal data held by Oryvia.\n• Rectification: Correct inaccurate, incomplete, or outdated personal data.\n• Erasure: Request the deletion of personal data, subject to contractual, legal, or regulatory retention requirements.\n• Restriction of Processing: Limit the processing of data under specific circumstances.\n• Objection to Processing: Object to processing activities based on legitimate interests.\n• Withdrawal of Consent: Withdraw previously granted consent for data processing where applicable.\n• Data Portability: Request transmission of personal data in a structured, machine-readable format to another controller, where technically feasible.\nTo initiate any of the above rights, a formal request must be submitted to:\n📧 support@oryvia.com\nIdentity verification may be required prior to processing any request. All submissions are subject to internal assessment. We reserves the right to evaluate the validity, scope, and necessity of each request and will act upon such requests only where permitted and appropriate under applicable laws and contractual obligations."
+            },
+            {
+                "title": "Children’s Privacy",
+                "content": "Oryvia does not knowingly collect or process personal data from individuals under the age of 13. Our website and services are not directed toward children, and we do not intend for them to engage with our platform. If it is discovered that data has been submitted by a user under 13 without verified parental consent, such data will be promptly deleted.\nParents or guardians who believe that their child may have submitted personal information to Oryvia may contact us at support@oryvia.com for immediate review and removal"
+            },
+            {
+                "title": "Third-Party Websites and External Links",
+                "content": "The Oryvia website may contain hyperlinks or references to external websites, tools, or digital platforms that operate independently and are not governed by this Privacy Policy. These third-party sites may have their own privacy policies, data collection practices, and security standards.\nWe does not assume responsibility or liability for the content, practices, or data handling procedures of any external websites. Users are encouraged to review the privacy policies of such third-party platforms prior to providing any personal information or engaging with their services."
+            },
+            {
+                "title": "Policy Revisions and Amendments",
+                "content": "For any inquiries, concerns, or requests related to this Privacy Policy or the processing of your personal data, contact Oryvia through the following channels:\n• 📧 Email: support@oryvia.com\n• 🌐 Website: www.oryvia.com\nLast Updated: [Insert Date]"
+            },
+            {
+                "title": "Contact Information",
+                "content": "Oryvia reserves the right to amend, update, or revise this Privacy Policy at its sole discretion, without prior notice, in order to reflect changes in applicable laws, regulatory guidance, technological developments, or modifications to our service offerings.\nAll updates will be published on this page with a corresponding revision to the stated \"Effective Date.\"Your continued use of our website or services post-modification signifies your acceptance of the updated terms."
+            }
+        ]
+    },
+    "terms": {
+        "title": "Oryvia Terms & Conditions",
+        "intro": "Welcome to Oryvia\nBy accessing or using our website [Oryvia link], you acknowledge that you have read, understood, and agree to comply with the following Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our services.",
+        "sections": [
+            {
+                "heading": "Ownership & Intellectual Property Rights",
+                "content": [
+                    "We declare that all materials posted and published on www.oryvia.com, including but not limited to the website design, content, logo, layout, graphics, trademarks, reviews, service descriptions, and visual elements, are the exclusive property of Oryvia.",
+                    "All such content is protected under applicable copyright, intellectual property, and trademark laws. Any form of reproduction, copying, modification, transfer, distribution, or exploitation of Oryvia’s property — whether for commercial or non-commercial purposes — is strictly prohibited without explicit written consent from the company.",
+                    "No individual, company, or third party is authorized to use our brand name, logo, content, or design for marketing, publicity, or promotional purposes without prior written approval.",
+                    "However, clients and users are free to share genuine feedback or reviews about their experience with Oryvia, provided it does not involve unauthorized use of our brand identity or protected assets."
+                ]
+            },
+            {
+                "heading": "Confidentiality",
+                "content": [
+                    "Both parties agree to keep all project-related information confidential and not to disclose any proprietary information to third parties."
+                ]
+            },
+            {
+                "heading": "Payment Terms",
+                "list": [
+                    "Invoices are due as per agreed project milestones.",
+                    "Late payments may result in delayed delivery or suspension of services.",
+                    "All payments are non-refundable unless stated otherwise.",
+                    "Either party may terminate the project with written notice.",
+                    "In case of cancellation, work completed will be invoiced and must be paid by the client."
+                ]
+            },
+            {
+                "heading": "Content Liability",
+                "content": [
+                    "We shall not be held responsible for any content that appears on your website or platforms as a result of our services or links. You agree to indemnify and defend us against all claims arising from the content you choose to display or publish on your website.",
+                    "No link(s), content, or material associated with your website should appear in a manner that can be interpreted as:"
+                ],
+                "list": [
+                    "Defamatory, libelous, or obscene",
+                    "Illegal, harmful, or criminal in nature",
+                    "Infringing or violating the intellectual property or rights of any third party"
+                ],
+                "note": "It is your responsibility to ensure that any content you host or publish complies with all applicable laws and does not damage the reputation of Oryvia in any form."
+            },
+            {
+                "heading": "Limitation of Liability",
+                "list": [
+                    "Loss of project data, content, or revenue arising from the use or misuse of our services",
+                    "Third-party service issues, such as domain providers or hosting platforms"
+                ]
+            },
+            {
+                "heading": "Modifications",
+                "content": [
+                    "Oryvia reserves the right to update, revise, or modify these Terms and Conditions at any time, without prior notice. Such changes may reflect updates to our services, legal requirements, or business practices. Continued use of our website or services after any modifications constitutes your acceptance of the revised Terms."
+                ]
+            },
+            {
+                "heading": "Disclaimer",
+                "content": [
+                    "This website and all services, materials, and information provided by Oryvia are made available on an “as is” and “as available” basis. We do not make, and expressly disclaim, any representations or warranties of any kind, whether express, implied, statutory, or otherwise.",
+                    "Oryvia does not fully guarantee uninterrupted access, performance, or error-free operation of its website or services.",
+                    "We disclaim all implied warranties, including but not limited to merchantability, fitness for a specific purpose, and non-infringement.",
+                    "We assume no liability for any direct or indirect losses arising from your use or inability to use our platform."
+                ]
+            },
+            {
+                "heading": "Legal Notice",
+                "content": [
+                    "These Terms & Conditions do not cover every possible scenario. Additional rights, responsibilities, or obligations may apply as required by law. In case of any conflict between these Terms and applicable legal regulations, the legal requirements shall override."
+                ]
+            },
+            {
+                "heading": "Contact",
+                "content": [
+                    "If you have any questions regarding these Terms, please contact us at: [Your Email]",
+                    "Last updated -"
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Let's Build Something Meaningful Together",
+        "subheading": "Have an idea or need a digital partner?\n Drop us a message – we're just one click away.",
+        "form": {
+            "heading": "Get in Touch",
+            "subheading": "We’d love to hear from you",
+            "fields": [
+                {
+                    "label": "Enter your name",
+                    "type": "text",
+                    "name": "name"
+                },
+                {
+                    "label": "Email address",
+                    "type": "email",
+                    "name": "email"
+                },
+                {
+                    "label": "Company Name(optional)",
+                    "type": "text",
+                    "name": "company"
+                },
+                {
+                    "label": "www.eample.com(optional)",
+                    "type": "url",
+                    "name": "website"
+                },
+                {
+                    "label": "Project Description",
+                    "type": "textarea",
+                    "name": "description"
+                },
+                {
+                    "label": "Select your services",
+                    "type": "select",
+                    "name": "services",
+                    "options": [
+                        "UIUX",
+                        "Website Maintenance",
+                        "Custom Website",
+                        "Website Redesign"
+                    ]
+                }
+            ],
+            "privacyNote": "We value your privacy. Read our Privacy Policy to learn how we handle your data.",
+            "submitButton": {
+                "label": "Submit"
+            }
+        }
+    },
+    "faqSection": {
+        "heading": "FAQs",
+        "faqs": [
+            {
+                "question": "How soon will I hear back after submitting the form?",
+                "answer": "We typically respond within 24–48 business hours after receiving your inquiry."
+            },
+            {
+                "question": "Do you work with international clients?",
+                "answer": "Yes, we work with clients from around the globe and tailor our communication and scheduling accordingly."
+            },
+            {
+                "question": "What details should I include in my first message?",
+                "answer": "Please include a brief about your project, goals, budget (if possible), and any timelines you’re working with."
+            }
+        ]
+    },
+    "teamProfiles": {
+        "ayush": {
+            "name": "Ayush Saini",
+            "image": {
+                "src": "/images/ayush-profile.jpg",
+                "alt": "Ayush Saini sitting at a table"
+            },
+            "title": "Full-Stack Developer | Systems Architect",
+            "introduction": "I specialize in building scalable, secure, and high-performance full-stack systems. From architecting backend infrastructure to developing responsive frontends, I ensure every part of the stack works seamlessly together.",
+            "coreExpertiseTitle": "Core Expertise",
+            "coreExpertise": [
+                "Node.js, Express, React, Next.js",
+                "REST & GraphQL APIs",
+                "UI Integration & State Management",
+                "CI/CD, Git, Deployment Workflows",
+                "Scalable System Architecture"
+            ],
+            "description": "I lead full-stack development with a structured and intentional approach — building clean architecture, optimizing performance, and keeping systems stable, scalable, and easy to maintain. I move fast, stay focused, and make sure projects run smoothly — whether I’m working solo or in sync with a team.",
+            "quoteSection": {
+                "title": "Not Just Another Project...",
+                "quote": "For me, it’s not just about code — it’s about owning what I build. Whether I’m solving something complex or pushing through long nights, I like the challenge. If you’ve trusted me, I’ll make sure you’re never second-guessing that choice."
+            }
+        },
+        "abhijeet": {
+            "name": "Abhijeet Dwivedi",
+            "image": {
+                "src": "/images/s2.svg",
+                "alt": "Ayush Saini sitting at a table"
+            },
+            "title": "Product Designer | UI/UX Strategist",
+            "introduction": "I specialize in creating clean, scalable design systems that balance visual appeal with functional usability. My work is driven by user behavior, business objectives, and a focus on delivering consistent, high-performance digital experiences.",
+            "coreExpertiseTitle": "Core Expertise",
+            "coreExpertise": [
+                "UI/UX Design for Web & Mobile Platforms",
+                "Design Systems & Component Librariess",
+                "Interactive Prototyping (Figma)",
+                "Wireframing & Usability Research",
+                "Brand-Integrated Product Design"
+            ],
+            "description": "My expertise lies in solving real user problems through structured design thinking and effective collaboration. I ensure seamless communication with developers and efficient workflows from concept to handoff.",
+            "quoteSection": {
+                "title": "A Bit Outside Design…",
+                "quote": "I love messing around with stuff outside of design — robotics, drones, whatever catches my curiosity. If we end up working together, don’t be surprised if we get carried away talking about cool tech. I just enjoy seeing what people are building and why."
+            }
+        },
+        "saksham": {
+            "name": "Saksham Pandey",
+            "image": {
+                "src": "/images/s5.svg",
+                "alt": "Ayush Saini sitting at a table"
+            },
+            "title": "Backend Developer | QA & Testing Lead",
+            "introduction": "I build backend systems that are fast, secure, and built to scale. From structuring APIs to managing databases and edge-case testing, I make sure every part of the system runs reliably — and holds up under pressure.",
+            "coreExpertiseTitle": "Core Expertise",
+            "coreExpertise": [
+                "Node.js, Express, MongoDB",
+                "RESTful APIs & GraphQL",
+                "Authentication, Session Management, Security",
+                "Manual & Automated Testing (Jest, Playwright)",
+                "Performance Optimization & Debugging"
+            ],
+            "description": "I work end-to-end — writing backend logic, testing every flow, and fixing anything that doesn’t hold up. If something’s not working right, I’ll find it, break it, and rebuild it better. I don’t cut corners, and I don’t ship until it’s solid.",
+            "quoteSection": {
+                "title": "Not Just Another Project…",
+                "quote": "Would love to meet the person who trusted us — not just to work together, but maybe for a game too. Badminton? Table tennis? I’m in. Just don’t expect me to go easy… I don’t lose without a fight. 😄"
+            }
+        }
+    },
+    "home": {
+        "hero": {
+            "lines": [
+                "Building the",
+                "Backbone of",
+                "Bold Brands"
+            ],
+            "highlight": "Bold"
+        },
+        "about": {
+            "heading": "About",
+            "content": "At Oxyvia, we’re not just building websites – we’re engineering digital experiences that drive performance, engagement, and long-term growth. Our work blends creative design with powerful technology to deliver solutions that are built around your business goals. We specialize in end-to-end digital execution: from strategy and UI/UX design to development and deployment – all handled with clarity, professionalism, and a deep understanding of what modern businesses need to thrive online. Whether you’re launching a startup, refreshing your brand, or scaling your online presence, we bring the expertise and attention to detail that ensures your project doesn’t just go live – it succeeds.",
+            "buttonText": "Learn more",
+            "highlighted": [
+                "Oxyvia"
+            ]
+        },
+        "services": {
+            "title": "Services",
+            "uiux": {
+                "title": "UIUX",
+                "features": [
+                    "Brand Integration",
+                    "Wireframing",
+                    "High/Low fidelity design",
+                    "UI Redesign",
+                    "System Design"
+                ],
+                "video": "/videos/v1.webm",
+                "cta": "More Info"
+            },
+            "websiteMaintenance": {
+                "title": "Website Maintenance",
+                "features": [
+                    "Content Update",
+                    "Performance Optimization",
+                    "SEO Maintenance",
+                    "Support & Troubleshooting",
+                    "Modules Updates"
+                ],
+                "video": "/videos/v2.webm",
+                "cta": "More Info"
+            },
+            "customWebsite": {
+                "title": "Custom Website",
+                "features": [
+                    "Consultation & Requirement gathering",
+                    "Custom UI/UX",
+                    "Frontend",
+                    "Backend",
+                    "Dynamic Features & Integration"
+                ],
+                "video": "/videos/v3.webm",
+                "cta": "More Info"
+            },
+            "websiteRedesign": {
+                "title": "Website Redesign",
+                "features": [
+                    "UI/UX Revamp",
+                    "Responsive Design",
+                    "Content & Visual Refresh",
+                    "SEO & Performance Optimization",
+                    "Final Testing & Launch Support"
+                ],
+                "video": "/videos/v4.webm",
+                "cta": "More Info"
+            }
+        },
+        "newServices": [
+            {
+                "title": "UI/UX Design",
+                "description": "We craft intuitive and user-centered digital experiences that align with your brand identity. From wireframes to high-fidelity prototypes, our design process ensures seamless navigation, accessibility, and a cohesive interface that delights your users at every interaction.",
+                "image": "/images/s1.svg",
+                "link": "/services/ui-ux",
+                "cta": "Learn More"
+            },
+            {
+                "title": "Website Maintenance",
+                "description": "Keep your website running at peak performance with regular updates, security patches, backups, uptime monitoring, and performance optimization. We handle the backend so you can focus on growing your business without disruptions.",
+                "image": "/images/s2.svg",
+                "link": "/services/website-maintenance",
+                "cta": "Learn More"
+            },
+            {
+                "title": "Custom Development",
+                "description": "From frontend interactions to backend architecture, we build custom web solutions tailored to your unique business needs. Whether it's an e-commerce platform, web app, or internal tool, our full-stack development ensures functionality, scalability, and performance.",
+                "image": "/images/s3.svg",
+                "link": "/services/custom-website",
+                "cta": "Learn More"
+            },
+            {
+                "title": "Website Redesign",
+                "description": "Transform your outdated website into a modern, responsive, and visually compelling digital experience. Our redesign process focuses on user behavior, brand alignment, and conversion-driven layouts to ensure your site stands out and delivers results.",
+                "image": "/images/s5.svg",
+                "link": "/services/website-redesign",
+                "cta": "Learn More"
+            }
+        ],
+        "technologiesSection": {
+            "heading": "Our Tech Stack",
+            "description": "We leverage modern technologies to craft fast, scalable, and user-focused digital products.",
+            "technologies": [
+                {
+                    "name": "React",
+                    "logo": "/images/react.svg"
+                },
+                {
+                    "name": "Next.js",
+                    "logo": "/images/nextjs.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "logo": "/images/tailwindcss.svg"
+                },
+                {
+                    "name": "Node.js",
+                    "logo": "/images/nodejs.svg"
+                },
+                {
+                    "name": "Figma",
+                    "logo": "/images/figma.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "logo": "/images/vercel.svg"
+                }
+            ]
+        },
+        "workSection": {
+            "id": "projects",
+            "heading": "Featured Projects",
+            "description": "From SaaS dashboards to e-commerce platforms, our custom solutions are built to solve real business challenges and scale with your growth.",
+            "cta": "View Details →",
+            "projects": [
+                {
+                    "title": "E-Commerce Redesign",
+                    "description": "Revamped a multi-vendor platform with enhanced UI, seamless checkout, and scalable architecture.",
+                    "image": "/images/s1.svg",
+                    "link": "#"
+                },
+                {
+                    "title": "SaaS Dashboard",
+                    "description": "Designed and developed a data-heavy analytics dashboard for a B2B SaaS product.",
+                    "image": "/images/s2.svg",
+                    "link": "#"
+                },
+                {
+                    "title": "Portfolio Builder",
+                    "description": "Crafted a custom site builder for creatives to showcase their portfolios without coding.",
+                    "image": "/images/s4.svg",
+                    "link": "#"
+                }
+            ]
+        },
+        "howWeWork": {
+            "subheading": "How We Work",
+            "heading": "Let us show you how we drive your brand to new heights",
+            "description": "From strategy to execution, we ensure your ideas are transformed into results.",
+            "steps": [
+                {
+                    "step": "Step-01",
+                    "title": "Contact",
+                    "description": "Start by filling out our contact form or sending us an email with your requirements. We usually respond within 24 hours."
+                },
+                {
+                    "step": "Step-02",
+                    "title": "Discussion",
+                    "description": "We schedule a short call or meeting to understand your goals, timeline, and expectations before moving forward."
+                },
+                {
+                    "step": "Step-03",
+                    "title": "Project Plan",
+                    "description": "Based on our discussion, we share a structured plan — covering scope, process, timeline, and pricing."
+                },
+                {
+                    "step": "Step-04",
+                    "title": "Execution",
+                    "description": "Once the plan is approved, we begin the work. You receive regular updates and review points throughout the process."
+                },
+                {
+                    "step": "Step-05",
+                    "title": "Delivery",
+                    "description": "The final product is delivered on time, fully ready to use. We provide post-launch support if needed."
+                }
+            ]
+        },
+        "testimonialsSection": {
+            "heading": "Trusted by Innovators. Delivered with Impact.",
+            "description": "At Oxyvia, we empower visionary clients to elevate their digital identity and maximize business results. Our team collaborates closely with startups and enterprises alike to deliver seamless, scalable solutions—built with purpose, driven by results.",
+            "cta": {
+                "label": "Book a demo",
+                "href": "#contact"
+            },
+            "testimonials": [
+                {
+                    "quote": "Oxyvia transformed our digital presence beyond expectations. Their attention to design and performance is unmatched.",
+                    "author": "Rohit Mehta",
+                    "position": "Founder, TechNova",
+                    "image": "/images/testimonials/rohit.jpg"
+                },
+                {
+                    "quote": "Working with Oxyvia was seamless. The team truly understands user experience and business impact.",
+                    "author": "Sara Malik",
+                    "position": "Marketing Head, BrightApps",
+                    "image": "/images/testimonials/sara.jpg"
+                },
+                {
+                    "quote": "From UI/UX to deployment, Oxyvia delivered top-notch quality with clear communication throughout.",
+                    "author": "Karan Desai",
+                    "position": "CEO, Finlytic",
+                    "image": "/images/testimonials/karan.jpg"
+                }
+            ]
+        },
+        "teamSection": {
+            "heading": "Our Core Team",
+            "description": "The minds driving innovation and success at our agency.",
+            "members": [
+                {
+                    "name": "Abhijeet Dwivedi",
+                    "role": "Lead Designer",
+                    "image": "/images/s2.svg",
+                    "link": "/profile/abhijeet-dwivedi"
+                },
+                {
+                    "name": "Ayush Saini",
+                    "role": "Developer",
+                    "image": "/images/s3.svg",
+                    "link": "/profile/ayush-saini"
+                },
+                {
+                    "name": "Saksham Pandey",
+                    "role": "Developer & Tester",
+                    "image": "/images/s5.svg",
+                    "link": "/profile/saksham-pandey"
+                }
+            ]
+        },
+        "faq": {
+            "title": "FAQs",
+            "items": [
+                {
+                    "title": "What is your typical project timeline?",
+                    "content": "Timelines vary by project scope, but most projects are completed within 2-4 weeks with regular updates."
+                },
+                {
+                    "title": "Do you outsource your projects to other companies?",
+                    "content": "No, our in-house team handles your project to ensure consistent quality and direct communication throughout."
+                },
+                {
+                    "title": "Do you use WordPress to build websites?",
+                    "content": "No, we don’t use WordPress for our projects. We specialize in building custom-coded websites from scratch using modern technologies. This gives you more flexibility, better performance, and a unique design tailored exactly to your brand — without the limitations of templates or plugins"
+                },
+                {
+                    "title": "Do you charge for every small update?",
+                    "content": "No, we don’t charge for small updates during the first 30 days after the delivery of the project. This includes simple edits like changing text or images. After that, we recommend a maintenance plan if you expect regular updates."
+                },
+                {
+                    "title": "How do we get started?",
+                    "content": "Just send over your project details, and 'll get back to you with a plan and timeline to kick things off."
+                }
+            ]
+        },
+        "getInTouch": {
+            "heading": "Let’s Build Something Amazing Together",
+            "subheading": "Have an idea in mind or a project you want to start? We’d love to hear from you. Reach out and let’s make something awesome.",
+            "button": {
+                "label": "Get in Touch",
+                "link": "/contact",
+                "variant": "primary"
+            }
+        }
+    }
+}
