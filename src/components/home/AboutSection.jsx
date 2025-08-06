@@ -28,7 +28,7 @@ export default function AboutSection() {
                     <p className="para3" aria-label="About content">
                         {highlightedParts}
                     </p>
-                    <Button href="/about" variant="secondary">
+                    <Button href="/about" variant="secondary" aria-label="Learn more about our team and mission">
                         {buttonText}
                     </Button>
                 </div>

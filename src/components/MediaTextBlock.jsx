@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 
 function MediaTextBlock({ image, imageAlt = 'Service image', services = [] }) {
-    const containerClass = "flex flex-col md:flex-row  gap-2.5 max-w-3xl mx-auto h-auto ";
-    const imageWrapperClass = "hidden md:block rounded-l-3xl overflow-hidden flex-shrink-0 w-1/4 md:mr-6";
+    const containerClass = "flex flex-col md:flex-row  gap-4 max-w-3xl mx-auto h-auto ";
+    const imageWrapperClass = "hidden md:block rounded-l-3xl overflow-hidden flex-shrink-0 w-1/4";
     const contentClass = "flex-1 space-y-6";
 
     return (

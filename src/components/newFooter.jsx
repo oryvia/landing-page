@@ -24,8 +24,9 @@ export default function NewFooter() {
                     <Image
                         src="/images/new-full-logo.svg"
                         alt="Oryvia Logo"
-                        width={150}
-                        height={50}
+                        style={{ width: 'auto', height: 'auto' }}
+                        width={0}
+                        height={0}
                         className="mb-4"
                         priority
                     />

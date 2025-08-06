@@ -21,7 +21,7 @@ export default function ProjectCard({
                 <Image
                     src={image}
                     alt={title || "Project image"}
-                    layout="fill"
+                    fill
                     className="object-cover transition-transform duration-300 rounded-3xl"
                     unoptimized
                 />

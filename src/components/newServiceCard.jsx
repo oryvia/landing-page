@@ -1,11 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Button from "./Button";
-import data from "@/data/data.json";
 
-const NewServiceCard = ({ serviceIndex = 0 }) => {
-    const service = data?.home?.newServices?.[serviceIndex];
-
+const NewServiceCard = ({ service }) => {
     if (!service) return null;
 
     return (
@@ -16,7 +13,7 @@ const NewServiceCard = ({ serviceIndex = 0 }) => {
             className="relative w-full aspect-[4/3] md:h-[500px] bg-cover bg-center overflow-hidden"
             style={{ backgroundImage: `url('${service.image || "/images/fallback.jpg"}')` }}
         >
-            <div className="absolute inset-0  backdrop-blur-3xl flex flex-col justify-center items-center text-center p-6 space-y-4 ">
+            <div className="absolute inset-0 backdrop-blur-3xl flex flex-col justify-center items-center text-center p-6 space-y-4">
                 <img
                     src={service.image || "/images/fallback.jpg"}
                     alt={service.imageAlt || service.title || "Service image"}
@@ -37,7 +34,7 @@ const NewServiceCard = ({ serviceIndex = 0 }) => {
 };
 
 NewServiceCard.propTypes = {
-    serviceIndex: PropTypes.number,
+    service: PropTypes.object.isRequired,
 };
 
 export default NewServiceCard;
