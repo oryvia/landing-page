@@ -25,7 +25,7 @@ const AccordionItem = React.memo(({ title, content, isOpen, onClick, index }) =>
                 id={contentId}
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 px-4 pb-4' : 'max-h-0 px-4 pb-0'}`}
             >
-                <div className={`transition-opacity duration-200 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`transition-opacity duration-200 para3 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
                     {content}
                 </div>
             </div>

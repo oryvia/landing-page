@@ -22,7 +22,7 @@ const HeroSection = () => {
             </div>
             <div className="relative z-10 flex items-center justify-center h-full">
                 <div className="max-w-7xl mx-auto text-center px-6">
-                    <h1 className="massive1 text-[152px] whitespace-pre-line leading-tight">
+                    <h1 className="massive1 text-[152px] whitespace-pre-line">
                         {heroData?.lines?.map((line, index) => {
                             if (highlight && line.includes(highlight)) {
                                 const [before, after] = line.split(highlight);

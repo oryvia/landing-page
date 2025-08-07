@@ -15,7 +15,7 @@ const TechnologiesWeUse = () => {
                     {data.home.technologiesSection.technologies.map((tech) => (
                         <div
                             key={tech.name}
-                            className="bg-light flex flex-col items-center rounded-3xl p-3"
+                            className=" bg-light flex flex-col items-center rounded-3xl p-3"
                         >
                             <div className="w-14 h-14 relative mb-3">
                                 <Image
@@ -24,12 +24,12 @@ const TechnologiesWeUse = () => {
                                     title={tech.name}
                                     fill
                                     loading="lazy"
-                                    className="object-contain transition duration-300 hover:drop-shadow-md"
+                                    className="object-contain grayscale"
                                 />
                             </div>
-                            <span className="para1" title={tech.name}>
+                            {/* <span className="para1" title={tech.name}>
                                 {tech.name}
-                            </span>
+                            </span> */}
                         </div>
                     ))}
                 </div>
