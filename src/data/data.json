@@ -528,24 +528,24 @@
             "description": "We leverage modern technologies to craft fast, scalable, and user-focused digital products.",
             "technologies": [
                 {
-                    "name": "React",
-                    "logo": "/images/react.svg"
+                    "name": "Next.js",
+                    "logo": "/images/next.svg"
                 },
                 {
-                    "name": "Next.js",
-                    "logo": "/images/nextjs.svg"
+                    "name": "Figma",
+                    "logo": "/images/figma.svg"
                 },
                 {
                     "name": "Tailwind CSS",
                     "logo": "/images/tailwindcss.svg"
                 },
                 {
-                    "name": "Node.js",
-                    "logo": "/images/nodejs.svg"
+                    "name": "Mongo DB",
+                    "logo": "/images/mongodb.svg"
                 },
                 {
-                    "name": "Figma",
-                    "logo": "/images/figma.svg"
+                    "name": "Express.js",
+                    "logo": "/images/express.svg"
                 },
                 {
                     "name": "Vercel",

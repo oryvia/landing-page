@@ -17,14 +17,14 @@ const TechnologiesWeUse = () => {
                             key={tech.name}
                             className="  flex flex-col items-center rounded-3xl p-3"
                         >
-                            <div className="w-14 h-14 relative mb-3">
+                            <div className="w-25 h-25 relative mb-3">
                                 <Image
                                     src={tech.logo}
                                     alt={`Logo of ${tech.name}`}
                                     title={tech.name}
                                     fill
                                     loading="lazy"
-                                    className="object-contain"
+                                    className="object-contain opacity-50"
                                 />
                             </div>
                             {/* <span className="para1" title={tech.name}>
