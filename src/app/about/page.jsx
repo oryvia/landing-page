@@ -43,7 +43,7 @@ export default function About() {
                                 ))}
                             </div>
                         </article>
-                        <figure className="relative w-full h-[350px] bg-cover bg-center overflow-hidden rounded-3xl" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label={heroImageAlt}></figure>
+                        <figure className="relative hidden md:block w-full h-[350px] bg-cover bg-center overflow-hidden rounded-3xl" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label={heroImageAlt}></figure>
                     </section>
                 </header>
 

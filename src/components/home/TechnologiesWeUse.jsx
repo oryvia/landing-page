@@ -3,7 +3,7 @@ import data from "@/data/data";
 
 const TechnologiesWeUse = () => {
     return (
-        <section className="px-4 sm:px-6 lg:px-12" aria-label="Technologies We Use">
+        <section className="px-4  sm:px-6 lg:px-12" aria-label="Technologies We Use">
             <div className="max-w-7xl mx-auto  text-center">
                 <h2 className="main mb-4">
                     {data.home.technologiesSection.heading}
@@ -15,7 +15,7 @@ const TechnologiesWeUse = () => {
                     {data.home.technologiesSection.technologies.map((tech) => (
                         <div
                             key={tech.name}
-                            className=" bg-light flex flex-col items-center rounded-3xl p-3"
+                            className="  flex flex-col items-center rounded-3xl p-3"
                         >
                             <div className="w-14 h-14 relative mb-3">
                                 <Image
@@ -24,7 +24,7 @@ const TechnologiesWeUse = () => {
                                     title={tech.name}
                                     fill
                                     loading="lazy"
-                                    className="object-contain grayscale"
+                                    className="object-contain"
                                 />
                             </div>
                             {/* <span className="para1" title={tech.name}>
