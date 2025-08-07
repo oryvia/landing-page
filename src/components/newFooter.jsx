@@ -37,7 +37,7 @@ export default function NewFooter() {
 
                 {/* Quick Links */}
                 <div>
-                    <h4 className="font-semibold mb-3 text-sm md:text-base">Quick Links</h4>
+                    <h5 className="font-semibold mb-3 text-sm md:text-base">Quick Links</h5>
                     <ul className="space-y-2 text-sm">
                         {quickLinks.map(({ label, href }) => (
                             <li key={href}>
@@ -51,7 +51,7 @@ export default function NewFooter() {
 
                 {/* Social Links */}
                 <div>
-                    <h4 className="font-semibold mb-3 text-sm md:text-base">Follow Us</h4>
+                    <h5 className="font-semibold mb-3 text-sm md:text-base">Follow Us</h5>
                     <ul className="flex flex-col space-y-2 text-sm">
                         {socialLinks.map(({ href, label }) => (
                             <li key={label}>
@@ -71,7 +71,7 @@ export default function NewFooter() {
 
                 {/* Contact Info */}
                 <div>
-                    <h4 className="font-semibold mb-3 text-sm md:text-base">Contact Us</h4>
+                    <h5 className="font-semibold mb-3 text-sm md:text-base">Contact Us</h5>
                     <p className="text-sm hover:text-gray-900 cursor-pointer">info@oryvia.in</p>
                 </div>
             </div>
