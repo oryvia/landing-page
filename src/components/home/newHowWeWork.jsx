@@ -24,8 +24,8 @@ const HowWeWork = () => {
                 <div className="relative z-10 mt-10 flex flex-col max-w-5xl mx-auto px-6 md:px-14 md:space-y-0 space-y-16">
 
                     <div
-                        className="absolute inset-0 bg-cover bg-center opacity-10"
-                        style={{ backgroundImage: "url('/images/checker.svg')" }}
+                        className="absolute inset-0 bg-cover bg-center opacity-10 "
+                        style={{ backgroundImage: "url('/images/grid.svg')" }}
                         aria-hidden="true"
                     ></div>
 

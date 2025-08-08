@@ -495,30 +495,34 @@
         },
         "newServices": [
             {
-                "title": "UI/UX Design",
+                "id": 1,
+                "title": "UI/UX \nDesign",
                 "description": "We craft intuitive and user-centered digital experiences that align with your brand identity. From wireframes to high-fidelity prototypes, our design process ensures seamless navigation, accessibility, and a cohesive interface that delights your users at every interaction.",
-                "image": "/images/s1.svg",
+                "image": "/images/p1.png",
                 "link": "/services/ui-ux",
                 "cta": "Learn More"
             },
             {
-                "title": "Website Maintenance",
+                "id": 2,
+                "title": "Website \n Maintenance",
                 "description": "Keep your website running at peak performance with regular updates, security patches, backups, uptime monitoring, and performance optimization. We handle the backend so you can focus on growing your business without disruptions.",
-                "image": "/images/s2.svg",
+                "image": "/images/p2.png",
                 "link": "/services/website-maintenance",
                 "cta": "Learn More"
             },
             {
-                "title": "Custom Development",
+                "id": 3,
+                "title": "Custom \nDevelopment",
                 "description": "From frontend interactions to backend architecture, we build custom web solutions tailored to your unique business needs. Whether it's an e-commerce platform, web app, or internal tool, our full-stack development ensures functionality, scalability, and performance.",
-                "image": "/images/s3.svg",
+                "image": "/images/p3.png",
                 "link": "/services/custom-website",
                 "cta": "Learn More"
             },
             {
-                "title": "Website Redesign",
+                "id": 4,
+                "title": "Website \nRedesign",
                 "description": "Transform your outdated website into a modern, responsive, and visually compelling digital experience. Our redesign process focuses on user behavior, brand alignment, and conversion-driven layouts to ensure your site stands out and delivers results.",
-                "image": "/images/s5.svg",
+                "image": "/images/p4.png",
                 "link": "/services/website-redesign",
                 "cta": "Learn More"
             }
