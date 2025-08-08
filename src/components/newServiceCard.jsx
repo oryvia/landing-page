@@ -19,7 +19,7 @@ const NewServiceCard = ({ service }) => {
                     alt={service.imageAlt || service.title || "Service image"}
                     className="hidden"
                 />
-                <div className="space-y-8">
+                <div className=" space-y-4 ">
                     <h2
                         className={`massive2 leading-tight whitespace-pre-line ${[2, 3].includes(Number(service.id)) ? "text-white" : "text-dark"
                             }`}
