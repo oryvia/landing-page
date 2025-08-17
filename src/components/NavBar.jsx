@@ -46,7 +46,7 @@ const NavLinkItem = ({
                         hasMounted && subLinks.some(sub => sub.href === currentPath)
                             ? 'font-medium text-dark'
                             : 'text-dark'
-                    } ${isMobile ? 'rounded-lg' : 'hover:text-accent'}`}
+                    } ${isMobile ? '' : 'hover:text-accent'}`}
                 >
                     {label}
                     <ChevronDown
@@ -54,30 +54,32 @@ const NavLinkItem = ({
                         size={16}
                     />
                 </button>
-                {isOpen && (
-                    <div
-                        className={`mt-2 ${isMobile ? 'pl-4 space-y-2' : 'absolute left-1/2 top-full mt-2 -translate-x-1/2 bg-white shadow-lg rounded-3xl py-2 z-50 min-w-[170px]'}`}
-                    >
-                        {subLinks.map(({ label, href }) => (
-                            <Link key={label} href={href} onClick={() => { onClick(); toggleDropdown(null); }}>
-                                <span
-                                    className={`block text-sm hover:text-accent ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? '' : 'px-4 py-2'}`}
-                                >
-                                    {label}
-                                </span>
-                            </Link>
-                        ))}
-                    </div>
-                )}
+                <div
+                    className={`transition-all duration-300 ease-in-out transform origin-top ${
+                        isMobile
+                            ? 'pl-4 space-y-2'
+                            : 'absolute left-1/2 top-full mt-2 -translate-x-1/2 bg-white shadow-lg rounded-3xl p-2 z-50 min-w-[190px]'
+                    } ${isOpen ? 'max-h-96 opacity-100 scale-y-100' : 'max-h-0 opacity-0 scale-y-0'}`}
+                >
+                    {subLinks.map(({ label, href }) => (
+                        <Link key={label} href={href} onClick={() => { onClick(); toggleDropdown(null); }}>
+                            <span
+                                className={` block text-sm py-1 px-3 rounded-3xl hover:bg-accent hover:text-white ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? '' : 'px-4 py-2'}`}
+                            >
+                                {label}
+                            </span>
+                        </Link>
+                    ))}
+                </div>
             </div>
         );
     }
 
     // Regular nav link
     return (
-        <Link key={label} href={href} onClick={onClick}>
+        <Link key={label} href={href} onClick={onClick} className=' w-full '>
             <span
-                className={`text-sm transition-colors hover:text-accent ${
+                className={`text-sm transition-colors  ${isMobile ? '' : 'hover:text-accent'} ${
                     hasMounted && currentPath === href ? 'font-medium text-dark' : 'text-dark'
                 }`}
             >
@@ -172,35 +174,44 @@ const NavBar = () => {
                 <button
                     onClick={handleMenuToggle}
                     aria-label={menuOpen ? 'Close Menu' : 'Open Menu'}
-                    className="text-dark"
+                    className="relative w-6 h-6 text-dark"
                 >
-                    {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                    <Menu
+                        className={`absolute inset-0 w-6 h-6 transition-transform duration-300 ${
+                            menuOpen ? 'rotate-90 opacity-0' : 'rotate-0 opacity-100'
+                        }`}
+                    />
+                    <X
+                        className={`absolute inset-0 w-6 h-6 transition-transform duration-300 ${
+                            menuOpen ? 'rotate-0 opacity-100' : 'rotate-90 opacity-0'
+                        }`}
+                    />
                 </button>
             </div>
 
             {/* Mobile dropdown menu (opened when hamburger is toggled) */}
-            {menuOpen && (
-                <div
-                    className="absolute top-20 left-4 right-4 bg-white shadow-lg rounded-3xl
-        p-5 flex flex-col items-start space-y-4 lg:hidden z-[100]"
-                >
-                    {navLinks.map(link => (
-                        <NavLinkItem
-                            key={link.label}
-                            link={link}
-                            currentPath={currentPath}
-                            hasMounted={hasMounted}
-                            onClick={handleLinkClick}
-                            activeDropdown={activeDropdown}
-                            toggleDropdown={toggleDropdown}
-                            isMobile={true}
-                        />
-                    ))}
-                    <Button href="/contact" onClick={handleLinkClick} variant="primary">
-                        Contact us
-                    </Button>
-                </div>
-            )}
+            <div
+                className={`transition-all duration-300 ease-in-out transform origin-top lg:hidden absolute top-20 left-4 right-4 bg-white shadow-lg rounded-3xl p-5 flex flex-col items-start space-y-4 z-[100] ${
+                    menuOpen ? 'translate-y-0 opacity-100 scale-y-100' : 'translate-y-[-10px] opacity-0 scale-y-95 pointer-events-none'
+                }`}
+                aria-hidden={!menuOpen}
+            >
+                {navLinks.map(link => (
+                    <NavLinkItem
+                        key={link.label}
+                        link={link}
+                        currentPath={currentPath}
+                        hasMounted={hasMounted}
+                        onClick={handleLinkClick}
+                        activeDropdown={activeDropdown}
+                        toggleDropdown={toggleDropdown}
+                        isMobile={true}
+                    />
+                ))}
+                <Button href="/contact" onClick={handleLinkClick} variant="primaryFull">
+                    Contact us
+                </Button>
+            </div>
         </nav>
     );
 };

@@ -10,7 +10,7 @@ const NewServiceCard = ({ service }) => {
             role="region"
             tabIndex="0"
             aria-label={`Service: ${service.title}`}
-            className="relative w-full  aspect-[1/1] md:h-[600px] bg-cover bg-center overflow-hidden"
+            className="relative w-full  aspect-[4/5] md:h-[600px] bg-cover bg-center overflow-hidden"
             style={{ backgroundImage: `url('${service.image || "/images/fallback.jpg"}')` }}
         >
             <div className="absolute inset-0  flex flex-col  items-center text-center pt-16 md:pt-24 space-y-4">
