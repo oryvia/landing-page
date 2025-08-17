@@ -53,7 +53,7 @@ export default function ContactPage() {
                 className="max-w-7xl mx-auto"
                 aria-labelledby="faqs-heading"
             >
-                <h2 id="faqs-heading" className="sub text-center">
+                <h2 id="faqs-heading" className="main text-center">
                     FAQs
                 </h2>
                 <Accordion items={faqItems} />

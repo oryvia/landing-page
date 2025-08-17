@@ -64,7 +64,7 @@ const NavLinkItem = ({
                     {subLinks.map(({ label, href }) => (
                         <Link key={label} href={href} onClick={() => { onClick(); toggleDropdown(null); }}>
                             <span
-                                className={` block text-sm py-1 px-3 rounded-3xl hover:bg-accent hover:text-white ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? '' : 'px-4 py-2'}`}
+                                className={` block text-sm py-1 px-3 rounded-3xl hover:bg-accent hover:text-white ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? 'py-2' : 'px-4 py-2'}`}
                             >
                                 {label}
                             </span>
@@ -183,7 +183,7 @@ const NavBar = () => {
                     />
                     <X
                         className={`absolute inset-0 w-6 h-6 transition-transform duration-300 ${
-                            menuOpen ? 'rotate-0 opacity-100' : 'rotate-90 opacity-0'
+                            menuOpen ? 'rotate-0 opacity-100' : '-rotate-90 opacity-0'
                         }`}
                     />
                 </button>

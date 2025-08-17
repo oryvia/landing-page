@@ -8,6 +8,7 @@ import TechnologiesWeUse from "@/components/home/TechnologiesWeUse";
 import Testimonials from "@/components/home/Testimonials";
 import Work from "@/components/home/Work";
 import HowWeWork from "@/components/home/newHowWeWork";
+import TeamCard from "@/components/TeamCard";
 
 export default function Home() {
     return (
