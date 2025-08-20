@@ -10,6 +10,7 @@ export default function WebsiteMaintenance() {
                 <p className="text-center para2 mb-12">{data.services.websiteMaintenance.description}</p>
                 <MediaTextBlock
                     image={data.services.websiteMaintenance.image}
+                    mobileImage={data.services.websiteMaintenance.mobileImage}
                     imageAlt={data.services.websiteMaintenance.imageAlt}
                     services={data.services.websiteMaintenance.services}
                 />

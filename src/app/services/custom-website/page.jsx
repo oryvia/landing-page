@@ -10,6 +10,7 @@ export default function CustomWebsite() {
                 <p className="text-center para2 mb-12">{data.services.customWebsite.description}</p>
                 <MediaTextBlock
                     image={data.services.customWebsite.image}
+                    mobileImage={data.services.customWebsite.mobileImage}
                     imageAlt={data.services.customWebsite.imageAlt}
                     services={data.services.customWebsite.services}
                 />

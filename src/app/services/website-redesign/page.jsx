@@ -10,6 +10,7 @@ export default function WebsiteRedesign() {
                 <p className="text-center para2 mb-12">{data.services.websiteRedesign.description}</p>
                 <MediaTextBlock
                     image={data.services.websiteRedesign.image}
+                    mobileImage={data.services.websiteRedesign.mobileImage}
                     imageAlt={data.services.websiteRedesign.imageAlt}
                     services={data.services.websiteRedesign.services}
                 />

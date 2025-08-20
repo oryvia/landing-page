@@ -42,7 +42,8 @@
         "uiux": {
             "title": "UIUX",
             "description": "We craft intuitive and visually cohesive digital experiences that seamlessly align with your brand identity and user needs. Through a structured process involving brand integration, strategic wireframing, fidelity design, and comprehensive interface and system design, we transform concepts into functional, user-centered solutions. Our approach ensures every interaction is thoughtfully designed to enhance usability, engagement, and overall satisfaction.",
-            "image": "/images/uiux.avif",
+            "image": "/images/uiuxV.png",
+            "mobileImage": "/images/uiuxH.png",
             "imageAlt": "Abstract digital art",
             "animationName": "v1",
             "services": [
@@ -71,7 +72,8 @@
         "websiteRedesign": {
             "title": "Website Redesign",
             "description": "We transform existing websites into modern, high-performing digital platforms tailored to evolving business goals and audience expectations. Through thoughtful design enhancements, technical improvements, and strategic updates, we revitalize your site’s visual appeal, functionality, and user experience. Our comprehensive approach ensures your redesigned website not only looks contemporary but also operates seamlessly, supports SEO objectives, and effectively represents your brand in today’s dynamic digital landscape.",
-            "image": "/images/redesign.avif",
+            "image": "/images/redesignV.png",
+            "mobileImage": "/images/redesignH.png",
             "imageAlt": "Abstract digital art",
             "services": [
                 {
@@ -99,7 +101,8 @@
         "customWebsite": {
             "title": "Custom Website",
             "description": "We design and build bespoke websites tailored precisely to your brand and business goals. From initial discovery to launch, our process combines strategic planning, creative design, and robust development to deliver a website that’s visually distinctive, highly functional, and scalable. With a focus on user experience and advanced features, we help you stand out online and provide your audience with a seamless digital experience that drives results.",
-            "image": "/images/custom.avif",
+            "image": "/images/customV.png",
+            "mobileImage": "/images/customH.png",
             "imageAlt": "Abstract digital art",
             "services": [
                 {
@@ -127,7 +130,8 @@
         "websiteMaintenance": {
             "title": "Website Maintenance",
             "description": "Ensure your website stays secure, fast, and flawlessly functional with our dedicated maintenance service. We handle everything behind the scenes — keeping your site updated, protecting it against potential issues, and making sure it delivers a seamless experience for every visitor. With regular care and proactive attention, your website continues to reflect your brand’s quality and supports your business goals effortlessly.",
-            "image": "/images/maintenance.avif",
+            "image": "/images/maintenanceV.png",
+            "mobileImage": "/images/maintenanceH.png",
             "imageAlt": "Abstract digital art",
             "services": [
                 {
@@ -499,6 +503,7 @@
                 "title": "UI/UX \nDesign",
                 "description": "We craft intuitive and user-centered digital experiences that align with your brand identity. From wireframes to high-fidelity prototypes, our design process ensures seamless navigation, accessibility, and a cohesive interface that delights your users at every interaction.",
                 "image": "/images/p1.png",
+                "mobileImage": "/images/m1.png",
                 "link": "/services/ui-ux",
                 "cta": "Learn More"
             },
@@ -507,6 +512,7 @@
                 "title": "Website \n Maintenance",
                 "description": "Keep your website running at peak performance with regular updates, security patches, backups, uptime monitoring, and performance optimization. We handle the backend so you can focus on growing your business without disruptions.",
                 "image": "/images/p2.png",
+                "mobileImage": "/images/m2.png",
                 "link": "/services/website-maintenance",
                 "cta": "Learn More"
             },
@@ -515,6 +521,7 @@
                 "title": "Custom \nDevelopment",
                 "description": "From frontend interactions to backend architecture, we build custom web solutions tailored to your unique business needs. Whether it's an e-commerce platform, web app, or internal tool, our full-stack development ensures functionality, scalability, and performance.",
                 "image": "/images/p3.png",
+                "mobileImage": "/images/m3.png",
                 "link": "/services/custom-website",
                 "cta": "Learn More"
             },
@@ -523,6 +530,7 @@
                 "title": "Website \nRedesign",
                 "description": "Transform your outdated website into a modern, responsive, and visually compelling digital experience. Our redesign process focuses on user behavior, brand alignment, and conversion-driven layouts to ensure your site stands out and delivers results.",
                 "image": "/images/p4.png",
+                "mobileImage": "/images/m4.png",
                 "link": "/services/website-redesign",
                 "cta": "Learn More"
             }

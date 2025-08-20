@@ -11,6 +11,7 @@ export default function UIUX() {
                 <MediaTextBlock
                 animationName="v1"
                     image={data.services.uiux.image}
+                    mobileImage={data.services.uiux.mobileImage}
                     imageAlt={data.services.uiux.imageAlt}
                     services={data.services.uiux.services}
                 />

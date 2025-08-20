@@ -2,14 +2,27 @@
 import React from 'react';
 import Image from 'next/image';
 
-function MediaTextBlock({ image, imageAlt = 'Service image', services = [] }) {
+function MediaTextBlock({ image,mobileImage, imageAlt = 'Service image', services = [] }) {
     const containerClass = "flex flex-col md:flex-row  gap-4 max-w-3xl mx-auto h-auto ";
-    const imageWrapperClass = "hidden md:block rounded-l-3xl overflow-hidden flex-shrink-0 w-1/4";
+    const imageWrapperClass = " hidden md:block rounded-l-3xl overflow-hidden flex-shrink-0 w-1/4";
+    const mobileImageWrapperClass = " block md:hidden rounded-t-3xl overflow-hidden flex-shrink-0 w-full";
     const contentClass = "flex-1 space-y-6";
 
     return (
         <section className={containerClass}>
-            {/* Image Section */}
+            {/* Mobile Image */}
+            <div className={mobileImageWrapperClass}>
+                {image && (
+                    <Image
+                        src={mobileImage}
+                        alt={imageAlt}
+                        width={300}
+                        height={300}
+                        className="w-full h-full object-cover md:min-h-[250px]"
+                    />
+                )}
+            </div>
+                {/* Desktop Image */}
             <div className={imageWrapperClass}>
                 {image && (
                     <Image
