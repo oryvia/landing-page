@@ -58,7 +58,7 @@ const NavLinkItem = ({
                     className={`transition-all duration-300 ease-in-out transform origin-top overflow-hidden ${
                         isMobile
                             ? 'pl-4 space-y-2'
-                            : 'absolute left-1/2 top-full mt-2 -translate-x-1/2 bg-white/80 backdrop-blur-md border border-gray-100 shadow-lg rounded-3xl p-2 z-50 min-w-[190px]'
+                            : 'absolute left-1/2 top-full mt-2 -translate-x-1/2 bg-white shadow-lg rounded-3xl p-2 z-50 min-w-[190px]'
                     } ${isOpen ? 'max-h-96 opacity-100 scale-y-100' : 'max-h-0 opacity-0 scale-y-0'}`}
                 >
                     {subLinks.map(({ label, href }) => (
@@ -203,7 +203,7 @@ const NavBar = () => {
 
             {/* Mobile dropdown menu (opened when hamburger is toggled) */}
             <div
-                className={`transition-all duration-300 ease-in-out transform origin-top lg:hidden absolute top-20 left-4 right-4 bg-white/90 backdrop-blur-md border border-gray-200 shadow-lg rounded-3xl p-5 flex flex-col items-start space-y-4 z-[100] ${
+                className={`transition-all duration-300 ease-in-out transform origin-top lg:hidden absolute top-20 left-4 right-4 bg-white shadow-lg rounded-3xl p-5 flex flex-col items-start space-y-4 z-[100] ${
                     menuOpen ? 'translate-y-0 opacity-100 scale-y-100' : 'translate-y-[-10px] opacity-0 scale-y-95 pointer-events-none'
                 }`}
                 aria-hidden={!menuOpen}
