@@ -12,6 +12,7 @@ const Button = ({ children, variant = "primary", href, as = "link", ...props }) 
         destructive: "bg-black text-white py-2 px-4",
         linkBlue: "text-accent hover:underline font-medium ",
         linkBlack: "text-black hover:underline font-medium ",
+        cardNav: "bg-transparent w-fit",
     };
 
     const className = `${baseClasses} ${variants[variant] || variants.primary}`;

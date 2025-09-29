@@ -15,10 +15,10 @@ const GetInTouch = () => {
             className="text-center px-5 md:px-8 lg:px-16"
         >
             <div className="max-w-3xl mx-auto">
-                <h2 id="get-in-touch-heading" className="main mb-4">
+                <h2 id="get-in-touch-heading" className="sub-heading mb-4">
                     {heading}
                 </h2>
-                <p id="get-in-touch-description" className="para2 mb-6">
+                <p id="get-in-touch-description" className="body-default mb-6">
                     {subheading}
                 </p>
                 <Button href={button.link} variant={button.variant}>

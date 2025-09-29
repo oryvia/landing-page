@@ -1,56 +1,9 @@
-/* @font-face {
-    font-family: "Roboto";
-    src: url("/fonts/roboto/Roboto-Light.woff2") format("woff2");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("/fonts/roboto/Roboto-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("/fonts/roboto/Roboto-Medium.woff2") format("woff2");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("/fonts/roboto/Roboto-SemiBold.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("/fonts/roboto/Roboto-Bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("/fonts/roboto/Roboto-ExtraBold.woff2") format("woff2");
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-} */
-
 @import "tailwindcss";
 
 @theme {
     --color-accent: #0360FF;
-    --color-bg: #FFFFFF;
+    --color-bg-primary: #FFFFFF;
+    --color-bg-secondary: #F5F5F7;
     --color-dark: #141414;
     --color-light: #F5F5F7;
 }
@@ -61,42 +14,113 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.massive1{
-    @apply text-[clamp(3rem,7.917vw,9.5rem)] font-extrabold  leading-tight
+body.bg-primary {
+    background: var(--color-bg-primary);
 }
-.massive2{
-    @apply text-[clamp(1.5rem,2.917vw,3.5rem)] font-bold
+
+body.bg-secondary {
+    background: var(--color-bg-secondary);
 }
-.main{
-    @apply text-[clamp(1.25rem,1.667vw,2rem)] font-semibold
+
+.hero {
+    @apply font-extrabold leading-tight;
+    font-size: clamp(3rem, 12vw, 9.5rem);
+    /* 48px → 152px */
 }
-.sub{
-    @apply text-[clamp(1rem,1.25vw,1.5rem)] font-medium
+
+.main-page-heading {
+    @apply font-bold leading-tight;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    /* 40px → 64px */
+}
+
+.section-heading {
+    @apply font-semibold leading-snug;
+    font-size: clamp(2rem, 5vw, 3rem);
+    /* 32px → 48px */
+}
+
+.sub-heading {
+    @apply font-semibold leading-snug;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    /* 28px → 36px */
+}
+
+.content-heading {
+    @apply font-semibold leading-snug;
+    font-size: clamp(1.5rem, 3vw, 1.875rem);
+    /* 24px → 30px */
+}
+
+.minor-heading {
+    @apply font-medium leading-normal;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    /* 20px → 24px */
+}
+
+.label-heading {
+    @apply font-medium leading-normal;
+    font-size: clamp(1.125rem, 2vw, 1.25rem);
+    /* 18px → 20px */
+}
+
+.intro-text {
+    @apply font-normal leading-relaxed;
+    font-size: clamp(1rem, 1.8vw, 1.125rem);
+    /* 16px → 18px */
+}
+
+.body-default {
+    @apply font-normal leading-relaxed;
+    font-size: 1rem;
+    /* 16px */
+}
+
+.body-sm {
+    @apply font-normal leading-relaxed;
+    font-size: 0.875rem;
+    /* 14px */
+}
+
+.caption {
+    @apply font-light leading-snug;
+    font-size: 0.75rem;
+    /* 12px */
+}
+
+.micro {
+    @apply font-light leading-none uppercase tracking-wide;
+    font-size: 0.6875rem;
+    /* 11px */
 }
 
 
-.massive1G{
-    @apply text-[clamp(3rem,7.917vw,9.5rem)] font-extrabold  leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
-}
-.massive2G{
-    @apply text-[clamp(1.5rem,2.917vw,3.5rem)] font-bold leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
-}
-.mainG{
-    @apply text-[clamp(1.25rem,1.667vw,2rem)] font-semibold leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
-}
-.subG{
-    @apply text-[clamp(1rem,1.25vw,1.5rem)] font-medium leading-tight bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent
-}
+@layer utilities {
+    .text-dark {
+        color: #141414;
+    }
 
-.para1{
-    @apply text-[clamp(0.875rem,0.833vw,1rem)] font-semibold leading-[clamp(1.375rem,0.833vw,1.5rem)] text-gray-700
-}
-.para2{
-    @apply text-[clamp(0.875rem,0.833vw,1rem)] font-medium leading-[clamp(1.375rem,0.833vw,1.5rem)] text-gray-600
-}
-.para3{
-    @apply text-[clamp(0.875rem,0.833vw,1rem)] font-normal leading-[clamp(1.375rem,0.833vw,1.5rem)] text-gray-600
-}
-.para4{
-    @apply text-[clamp(0.625rem,0.521vw,0.75rem)] font-normal leading-[clamp(1.125rem,0.521vw,1.25rem)] text-gray-500
+    .text-light {
+        color: #F5F5F7;
+    }
+
+    .text-accent {
+        color: #0360FF;
+    }
+
+    .text-muted {
+        color: #4B5563;
+    }
+
+    .text-subtle {
+        color: #6B7280;
+    }
+
+    .text-disabled {
+        color: #9CA3AF;
+    }
+
+    .text-gradient-blue-purple-pink {
+        @apply bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent;
+    }
 }

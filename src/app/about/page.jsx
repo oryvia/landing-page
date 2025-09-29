@@ -21,21 +21,21 @@ export default function About() {
     } = data.aboutPage;
 
     return (
-        <main className="my-40 space-y-8">
-            <div className="max-w-7xl mx-auto px-4 space-y-20">
+        <main className="my-36">
+            <div className="max-w-7xl mx-auto space-y-8 md:space-y-12 lg:space-y-16">
 
                 {/* Hero Section */}
                 <header className="text-center space-y-8">
-                    <h1 className="massive2" aria-label="About Us Heading">{heading}</h1>
+                    <h1 className="main-page-heading" aria-label="About Us Heading">{heading}</h1>
                     <section className="flex flex-col md:flex-row gap-x-12 gap-y-6 items-center lg:items-start" aria-label="About us introduction and services">
                         <article className="w-full space-y-4">
-                            <p className="para2 whitespace-pre-line text-justify">{intro}</p>
-                            <h2 className="sub text-left">{servicesTitle}</h2>
+                            <p className="intro-text whitespace-pre-line text-justify">{intro}</p>
+                            <h2 className="content-heading text-left">{servicesTitle}</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4" role="list">
                                 {services.map((service, index) => (
                                     <article
                                         key={index}
-                                        className="bg-light text-center py-6 rounded-3xl para3 hover:scale-105 transition-transform duration-300"
+                                        className="bg-light text-center py-6 rounded-3xl body-sm hover:scale-105 transition-transform duration-300"
                                         role="listitem"
                                     >
                                         {service}
@@ -43,7 +43,7 @@ export default function About() {
                                 ))}
                             </div>
                         </article>
-                        <figure className="relative hidden md:block w-full h-[350px] bg-cover bg-center overflow-hidden rounded-3xl" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label={heroImageAlt}></figure>
+                        <figure className="relative hidden md:block w-full h-[460px] bg-cover bg-center overflow-hidden rounded-3xl" style={{ backgroundImage: `url('${heroImage}')` }} role="img" aria-label={heroImageAlt}></figure>
                     </section>
                 </header>
 
@@ -60,9 +60,9 @@ export default function About() {
 
                 {/* Our Approach */}
                 <section aria-labelledby="approach-title" className="space-y-4">
-                    <h2 id="approach-title" className="sub">{approachTitle}</h2>
+                    <h2 id="approach-title" className="content-heading">{approachTitle}</h2>
                     <div className="space-y-2">
-                        <p className="para2 text-justify">{approachIntro}</p>
+                        <p className="body-default text-justify">{approachIntro}</p>
                         <ul className="list-disc list-inside para3 space-y-1" role="list">
                             {approachPoints.map((point, index) => (
                                 <li key={index} role="listitem">{point}</li>
@@ -74,11 +74,11 @@ export default function About() {
                 {/* What Sets Us Apart */}
                 <section aria-labelledby="apart-title" className="grid gap-8 sm:gap-12 md:grid-cols-2 items-start mt-16">
                     <div>
-                        <h2 id="apart-title" className="massive2">{whatSetsUsApartTitle}</h2>
+                        <h2 id="apart-title" className="section-heading">{whatSetsUsApartTitle}</h2>
                     </div>
-                    <article className="max-w-prose para3 space-y-6 text-justify">
+                    <article className="max-w-prose body-default space-y-6 text-justify">
                         {whatSetsUsApartPoints.map((point, index) => (
-                            <p key={index} className={index === whatSetsUsApartPoints.length - 1 ? "para1" : ""}>
+                            <p key={index} className={index === whatSetsUsApartPoints.length - 1 ? "intro-text" : ""}>
                                 {point}
                             </p>
                         ))}
@@ -86,9 +86,9 @@ export default function About() {
                 </section>
 
                 {/* Final CTA */}
-                <section className="max-w-2xl mx-auto text-center space-y-4" aria-label="Final call to action">
-                    <h2 className="sub" aria-label="Call to action">{finalCta.title}</h2>
-                    <p className="para2 text-balance">{finalCta.description}</p>
+                <section className="max-w-3xl mx-auto text-center space-y-4" aria-label="Final call to action">
+                    <h2 className="sub-heading" aria-label="Call to action">{finalCta.title}</h2>
+                    <p className="bodu-default text-balance">{finalCta.description}</p>
                     <Button href={finalCta.link} variant="primary">
                         {finalCta.button}
                     </Button>

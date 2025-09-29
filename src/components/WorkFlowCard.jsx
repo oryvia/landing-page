@@ -17,11 +17,11 @@ const WorkFlowCard = ({ step, idx }) => {
                 />
             </div>
             <div className="bg-white rounded-2xl px-4 pt-4 pb-10 text-left">
-                <p className="para4 uppercase mb-1">{step.step}</p>
-                <h3 id={`step-title-${idx}`} className="sub mb-2">
+                <p className="micro uppercase mb-1">{step.step}</p>
+                <h3 id={`step-title-${idx}`} className="minor-heading mb-2">
                     {step.title}
                 </h3>
-                <p className="para3">{step.description}</p>
+                <p className="body-sm">{step.description}</p>
             </div>
         </div>
     );

@@ -7,14 +7,14 @@ const ContactForm = ({ form = {}, onSubmit }) => {
         <section className="max-w-7xl mx-auto px-4 py-16">
             <div className="grid md:grid-cols-2 gap-12">
                 <div className="flex flex-col justify-center">
-                    <h2 className="main">{data.contact.form.heading}</h2>
-                    <p className="para3">{data.contact.form.subheading}</p>
+                    <h2 className="section-heading">{data.contact.form.heading}</h2>
+                    <p className="body-default">{data.contact.form.subheading}</p>
                 </div>
 
                 <form className="space-y-6" aria-label="Project inquiry form" onSubmit={onSubmit}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         {data.contact.form.fields?.map((field, idx) => {
-                            const commonClasses = "p-3 rounded-2xl w-full ring-1 ring-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 text-dark";
+                            const commonClasses = "p-3 rounded-2xl w-full ring-1 ring-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500";
 
                             if (field.type === "textarea") {
                                 return (
@@ -66,9 +66,9 @@ const ContactForm = ({ form = {}, onSubmit }) => {
                     </div>
 
                     {data.contact.form.privacyNote && (
-                        <p className="text-sm text-gray-500">
+                        <p className="body-sm ">
                             {data.contact.form.privacyNote}{" "}
-                            <a href="/privacy-policy" className="text-blue-500">Read our Privacy Policy</a>
+                            <a href="/privacy-policy" className="text-accent">Read our Privacy Policy</a>
                         </p>
                     )}
 

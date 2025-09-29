@@ -8,15 +8,15 @@ const AccordionItem = React.memo(({ title, content, isOpen, onClick, index }) =>
     const contentId = `accordion-content-${index}`;
 
     return (
-        <section className="border-b border-gray-200 hover:text-accent">
+        <section className="border-b border-gray-200">
             <button
                 type="button"
                 onClick={onClick}
                 aria-expanded={isOpen}
                 aria-controls={contentId}
-                className="w-full flex justify-between items-center py-4 px-4 text-left"
+                className="w-full flex justify-between items-center py-4 px-4 text-left hover:text-accent"
             >
-                <span className="sub">{title}</span>
+                <span className="label-heading">{title}</span>
                 <ChevronDown
                     className={`w-5 h-5 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
                 />
@@ -25,7 +25,7 @@ const AccordionItem = React.memo(({ title, content, isOpen, onClick, index }) =>
                 id={contentId}
                 className={`transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 px-4 pb-4 overflow-y-auto' : 'max-h-0 px-4 pb-0 overflow-hidden'}`}
             >
-                <div className={`transition-opacity duration-200 para3 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`transition-opacity duration-200 body-default ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
                     {content}
                 </div>
             </div>

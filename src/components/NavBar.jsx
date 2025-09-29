@@ -46,7 +46,7 @@ const NavLinkItem = ({
                         hasMounted && subLinks.some(sub => sub.href === currentPath)
                             ? 'font-medium text-dark'
                             : 'text-dark'
-                    } ${isMobile ? 'text-xl px-3 py-2 hover:bg-accent hover:text-white' : 'hover:text-accent'}`}
+                    } ${isMobile ? 'intro-text px-3 py-2 hover:bg-accent hover:text-white' : 'hover:text-accent'}`}
                 >
                     {label}
                     <ChevronDown
@@ -64,7 +64,7 @@ const NavLinkItem = ({
                     {subLinks.map(({ label, href }) => (
                         <Link key={label} href={href} onClick={() => { onClick(); toggleDropdown(null); }}>
                             <span
-                                className={`block w-full text-sm px-3 rounded-3xl hover:bg-accent hover:text-white ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? 'py-2 text-xl' : 'py-2 px-4'}`}
+                                className={`block w-full text-sm px-3 rounded-3xl hover:bg-accent hover:text-white ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? 'py-2 intro-text' : 'py-2 px-4'}`}
                             >
                                 {label}
                             </span>
@@ -79,7 +79,7 @@ const NavLinkItem = ({
     return (
         <Link key={label} href={href} onClick={onClick} className="w-full">
             <span
-                className={`block w-full rounded-3xl text-sm transition-colors ${isMobile ? 'text-xl px-3 py-2 hover:bg-accent hover:text-white' : 'hover:text-accent'} ${
+                className={`block w-full rounded-3xl text-sm transition-colors ${isMobile ? 'intro-text px-3 py-2 hover:bg-accent hover:text-white' : 'hover:text-accent'} ${
                     hasMounted && currentPath === href ? 'font-medium text-dark' : 'text-dark'
                 }`}
             >

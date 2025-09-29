@@ -15,13 +15,13 @@ const PrivacyPolicy = () => {
     }));
 
     return (
-        <main className="px-4 my-40" role="main">
-            <article className="max-w-7xl mx-auto space-y-8" aria-labelledby="privacy-policy-title">
+        <main className="px-4 my-36" role="main">
+            <article className="max-w-7xl mx-auto space-y-8 md:space-y-12 lg:space-y-16" aria-labelledby="privacy-policy-title">
                 <header>
-                    <h1 id="privacy-policy-title" className="massive2 text-center">
+                    <h1 id="privacy-policy-title" className="main-page-heading text-center">
                         {data.privacyPolicy.title}
                     </h1>
-                    <p className="para1 text-center">{data.privacyPolicy.description}</p>
+                    <p className="intro-text text-center">{data.privacyPolicy.description}</p>
                 </header>
 
                 <section role="region" aria-labelledby="privacy-accordion">

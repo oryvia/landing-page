@@ -17,7 +17,7 @@ export default function ProjectCard({
                 "hover:shadow-xl hover:bg-light"
             )}
         >
-            <div className="relative w-full aspect-[3/4]">
+            <div className="relative w-full aspect-[3/4] overflow-hidden">
                 <Image
                     src={image}
                     alt={title || "Project image"}
@@ -27,8 +27,8 @@ export default function ProjectCard({
                 />
             </div>
             <div className="p-5 space-y-2">
-                <h3 className="sub">{title}</h3>
-                <p className="para3">{description}</p>
+                <h3 className="content-heading">{title}</h3>
+                <p className="body-sm">{description}</p>
                 {cta && (
                     <div>
                         <Button href={link} variant="linkBlue">

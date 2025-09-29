@@ -1,8 +1,8 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
-import NewFooter from "@/components/newFooter";
+import NewFooter from "@/components/Footer";
+import BodyWrapper from "@/components/BodyWrapper";
 
 // Optimized font loading with display swap
 const roboto = Roboto({
@@ -13,19 +13,18 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-    title: "Oxyvia | Scalable Web Solutions",
-    description: "We build high-performance websites, custom platforms, and digital products designed to scale.",
+    title: 'Oryvia',
+    description: 'Your description here',
 };
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body className={`${roboto.variable} antialiased`}>
+            <BodyWrapper fontClass={roboto.variable}>
                 <NavBar />
                 {children}
                 <NewFooter />
-                {/* <Footer /> */}
-            </body>
+            </BodyWrapper>
         </html>
     );
 }

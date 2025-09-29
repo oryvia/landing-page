@@ -3,10 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 
 function MediaTextBlock({ image,mobileImage, imageAlt = 'Service image', services = [] }) {
-    const containerClass = "flex flex-col md:flex-row  gap-4 max-w-3xl mx-auto h-auto ";
-    const imageWrapperClass = " hidden md:block rounded-l-3xl overflow-hidden flex-shrink-0 w-1/4";
-    const mobileImageWrapperClass = " block md:hidden rounded-t-3xl overflow-hidden flex-shrink-0 w-full";
-    const contentClass = "flex-1 space-y-6";
+    const containerClass = "flex flex-col md:flex-row  gap-4 max-w-4xl mx-auto h-auto p-2 rounded-3xl bg-white";
+    const imageWrapperClass = " hidden md:block rounded-l-2xl overflow-hidden flex-shrink-0 w-1/4";
+    const mobileImageWrapperClass = " block md:hidden rounded-t-2xl overflow-hidden flex-shrink-0 w-full";
+    const contentClass = "flex-1 space-y-6 p-2";
 
     return (
         <section className={containerClass}>
@@ -39,8 +39,8 @@ function MediaTextBlock({ image,mobileImage, imageAlt = 'Service image', service
             <article className={contentClass}>
                 {services.map((service, index) => (
                     <div key={index}>
-                        <h3 className="para1">• {service.title}</h3>
-                        <p className="para3 whitespace-pre-line text-justify">
+                        <h3 className="label-heading">• {service.title}</h3>
+                        <p className="body-default whitespace-pre-line text-justify">
                             {service.description}
                         </p>
                     </div>

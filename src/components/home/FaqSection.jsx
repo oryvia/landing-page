@@ -12,7 +12,7 @@ function FaqSection() {
     return (
         <section className="px-5 md:px-8 lg:px-16" aria-label="Frequently Asked Questions">
             <div className="max-w-7xl mx-auto space-y-16">
-                <h2 className="text-center main">{data.home.faq.title}</h2>
+                <h2 className="text-center section-heading">{data.home.faq.title}</h2>
                 <Accordion items={accordionItems} />
             </div>
         </section>

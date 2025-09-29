@@ -21,11 +21,11 @@ export default function AboutSection() {
     return (
         <section className="text-center px-5 md:px-8 lg:px-16" aria-labelledby="about-heading">
             <div className="max-w-7xl mx-auto space-y-16">
-                <h2 id="about-heading" className="main">
+                <h2 id="about-heading" className="section-heading">
                     {heading}
                 </h2>
                 <div className="space-y-10">
-                    <p className="para3" aria-label="About content">
+                    <p className="body-default" aria-label="About content">
                         {highlightedParts}
                     </p>
                     <Button href="/about" variant="secondary" aria-label="Learn more about our team and mission">

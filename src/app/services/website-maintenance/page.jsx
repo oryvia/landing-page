@@ -4,10 +4,10 @@ import MediaTextBlock from '@/components/MediaTextBlock';
 
 export default function WebsiteMaintenance() {
     return (
-        <section className="my-40 px-4">
-            <div className="max-w-7xl mx-auto space-y-8 ">
-                <h2 className="massive2 text-center">{data.services.websiteMaintenance.title}</h2>
-                <p className="text-center para2 mb-12">{data.services.websiteMaintenance.description}</p>
+        <section className="my-36 px-4">
+            <div className="max-w-7xl mx-auto space-y-8 md:space-y-12 lg:space-y-16 ">
+                <h2 className="main-page-heading text-center">{data.services.websiteMaintenance.title}</h2>
+                <p className="text-center intro-text mb-12">{data.services.websiteMaintenance.description}</p>
                 <MediaTextBlock
                     image={data.services.websiteMaintenance.image}
                     mobileImage={data.services.websiteMaintenance.mobileImage}

@@ -709,5 +709,33 @@
                 "variant": "primary"
             }
         }
+    },
+    "work": {
+        "id": "projects",
+        "heading": "Featured Projects",
+        "description": "Explore how we've helped businesses grow through modern web design, custom development, and interactive experiences.",
+        "projects": [
+            {
+                "title": "E-Commerce Redesign",
+                "description": "Revamped a multi-vendor platform with enhanced UI, seamless checkout, and scalable architecture.",
+                "image": "/images/s1.svg",
+                "cta": "View Details →",
+                "link": "#"
+            },
+            {
+                "title": "SaaS Dashboard",
+                "description": "Designed and developed a data-heavy analytics dashboard for a B2B SaaS product.",
+                "image": "/images/s2.svg",
+                "cta": "View Details →",
+                "link": "#"
+            },
+            {
+                "title": "Portfolio Builder",
+                "description": "Crafted a custom site builder for creatives to showcase their portfolios without coding.",
+                "image": "/images/s4.svg",
+                "cta": "View Details →",
+                "link": "#"
+            }
+        ]
     }
 }

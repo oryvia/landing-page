@@ -28,10 +28,10 @@ export default function ContactPage() {
     }));
 
     return (
-        <main className="px-4 my-40 space-y-16">
+        <main className="my-36 space-y-8 md:space-y-12 lg:space-y-16">
             <header className="text-center space-y-10" id="contact-header">
-                <h1 className="massive2">{heading}</h1>
-                <p className="para2 whitespace-pre-line">{subheading}</p>
+                <h1 className="main-page-heading">{heading}</h1>
+                <p className="intro-text whitespace-pre-line">{subheading}</p>
             </header>
 
             <section
@@ -53,7 +53,7 @@ export default function ContactPage() {
                 className="max-w-7xl mx-auto"
                 aria-labelledby="faqs-heading"
             >
-                <h2 id="faqs-heading" className="main text-center">
+                <h2 id="faqs-heading" className="section-heading text-center">
                     FAQs
                 </h2>
                 <Accordion items={faqItems} />
