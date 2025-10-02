@@ -302,12 +302,12 @@
             "subheading": "We’d love to hear from you",
             "fields": [
                 {
-                    "label": "Enter your name",
+                    "label": "Enter your name(required)",
                     "type": "text",
                     "name": "name"
                 },
                 {
-                    "label": "Email address",
+                    "label": "Email address(required)",
                     "type": "email",
                     "name": "email"
                 },
@@ -317,12 +317,12 @@
                     "name": "company"
                 },
                 {
-                    "label": "www.example.com(optional)",
+                    "label": "https://www.example.com(optional)",
                     "type": "url",
                     "name": "website"
                 },
                 {
-                    "label": "Project Description",
+                    "label": "Project Description(required)",
                     "type": "textarea",
                     "name": "description"
                 },
@@ -514,7 +514,7 @@
             "id": "projects",
             "heading": "Featured Projects",
             "description": "From SaaS dashboards to e-commerce platforms, our custom solutions are built to solve real business challenges and scale with your growth.",
-            "cta": "View Details →",
+            "cta": "View Live →",
             "projects": [
                 {
                     "title": "WallPickr",
@@ -652,7 +652,7 @@
                 "title": "E-Commerce Redesign",
                 "description": "Revamped a multi-vendor platform with enhanced UI, seamless checkout, and scalable architecture.",
                 "image": "/images/wallpickr.png",
-                "cta": "View Details →",
+                "cta": "View Live →",
                 "link": "https://wallpickr.vercel.app"
             }
         ]

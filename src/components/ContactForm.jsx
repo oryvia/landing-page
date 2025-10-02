@@ -31,13 +31,13 @@ const ContactForm = () => {
                 // Reset after 3s
                 setTimeout(() => {
                     setStatus(null);
-                }, 3000);
+                }, 10000);
             } else {
                 setStatus("❌ Failed to submit. Please try again.");
                 // Reset after 3s
-                setTimeout(() => {
-                    setStatus(null);
-                }, 3000);
+                // setTimeout(() => {
+                //     setStatus(null);
+                // }, 3000);
             }
         } catch (error) {
             console.error("Error submitting form:", error);

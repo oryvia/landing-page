@@ -3,10 +3,15 @@ import Link from 'next/link';
 
 const quickLinks = [
     { label: 'Home', href: '/' },
-    { label: 'Services', href: '#services' },
     { label: 'Work', href: '/work' },
     { label: 'About Us', href: '/about' },
     { label: 'Contact', href: '/contact' },
+];
+const services = [
+    { label: 'UI/UX  Design', href: '/services/ui-ux' },
+    { label: 'Website  Maintenance', href: '/services/website-maintenance' },
+    { label: 'Custom  Development', href: '/services/custom-website' },
+    { label: 'Website  Redesign', href: '/services/website-redesign' }
 ];
 
 const socialLinks = [
@@ -18,7 +23,7 @@ const socialLinks = [
 export default function NewFooter() {
     return (
         <footer className="bg-light text-gray-600 px-6 md:px-12 py-12">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-5 gap-8">
                 {/* Logo */}
                 <div className="col-span-1 md:col-span-1">
                     <Image
@@ -40,6 +45,19 @@ export default function NewFooter() {
                     <h5 className="font-semibold mb-3 text-sm md:text-base">Quick Links</h5>
                     <ul className="space-y-2 text-sm">
                         {quickLinks.map(({ label, href }) => (
+                            <li key={href}>
+                                <a href={href} className="hover:text-gray-900">
+                                    {label}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                {/*Service Links */}
+                <div>
+                    <h5 className="font-semibold mb-3 text-sm md:text-base">Services</h5>
+                    <ul className="space-y-2 text-sm">
+                        {services.map(({ label, href }) => (
                             <li key={href}>
                                 <a href={href} className="hover:text-gray-900">
                                     {label}
