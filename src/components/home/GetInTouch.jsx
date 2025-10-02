@@ -12,13 +12,13 @@ const GetInTouch = () => {
             id="get-in-touch"
             aria-labelledby="get-in-touch-heading"
             aria-describedby="get-in-touch-description"
-            className="text-center px-5 md:px-8 lg:px-16"
+            className="text-center px-4"
         >
             <div className="max-w-3xl mx-auto">
-                <h2 id="get-in-touch-heading" className="sub-heading mb-4">
+                <h2 id="get-in-touch-heading" className="sub-heading mb-2">
                     {heading}
                 </h2>
-                <p id="get-in-touch-description" className="body-default mb-6">
+                <p id="get-in-touch-description" className="body-default text-muted mb-4">
                     {subheading}
                 </p>
                 <Button href={button.link} variant={button.variant}>

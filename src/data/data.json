@@ -195,11 +195,11 @@
             },
             {
                 "title": "Your Rights and Data Control",
-                "content": "In accordance with applicable data protection laws, individuals may exercise the following rights concerning their personal data:• Access: Request access to the personal data held by Oryvia.\n• Rectification: Correct inaccurate, incomplete, or outdated personal data.\n• Erasure: Request the deletion of personal data, subject to contractual, legal, or regulatory retention requirements.\n• Restriction of Processing: Limit the processing of data under specific circumstances.\n• Objection to Processing: Object to processing activities based on legitimate interests.\n• Withdrawal of Consent: Withdraw previously granted consent for data processing where applicable.\n• Data Portability: Request transmission of personal data in a structured, machine-readable format to another controller, where technically feasible.\nTo initiate any of the above rights, a formal request must be submitted to:\n📧 support@oryvia.com\nIdentity verification may be required prior to processing any request. All submissions are subject to internal assessment. We reserves the right to evaluate the validity, scope, and necessity of each request and will act upon such requests only where permitted and appropriate under applicable laws and contractual obligations."
+                "content": "In accordance with applicable data protection laws, individuals may exercise the following rights concerning their personal data:• Access: Request access to the personal data held by Oryvia.\n• Rectification: Correct inaccurate, incomplete, or outdated personal data.\n• Erasure: Request the deletion of personal data, subject to contractual, legal, or regulatory retention requirements.\n• Restriction of Processing: Limit the processing of data under specific circumstances.\n• Objection to Processing: Object to processing activities based on legitimate interests.\n• Withdrawal of Consent: Withdraw previously granted consent for data processing where applicable.\n• Data Portability: Request transmission of personal data in a structured, machine-readable format to another controller, where technically feasible.\nTo initiate any of the above rights, a formal request must be submitted to:\n📧 info@oryvia.in\nIdentity verification may be required prior to processing any request. All submissions are subject to internal assessment. We reserves the right to evaluate the validity, scope, and necessity of each request and will act upon such requests only where permitted and appropriate under applicable laws and contractual obligations."
             },
             {
                 "title": "Children’s Privacy",
-                "content": "Oryvia does not knowingly collect or process personal data from individuals under the age of 13. Our website and services are not directed toward children, and we do not intend for them to engage with our platform. If it is discovered that data has been submitted by a user under 13 without verified parental consent, such data will be promptly deleted.\nParents or guardians who believe that their child may have submitted personal information to Oryvia may contact us at support@oryvia.com for immediate review and removal"
+                "content": "Oryvia does not knowingly collect or process personal data from individuals under the age of 13. Our website and services are not directed toward children, and we do not intend for them to engage with our platform. If it is discovered that data has been submitted by a user under 13 without verified parental consent, such data will be promptly deleted.\nParents or guardians who believe that their child may have submitted personal information to Oryvia may contact us at info@oryvia.com for immediate review and removal"
             },
             {
                 "title": "Third-Party Websites and External Links",
@@ -207,7 +207,7 @@
             },
             {
                 "title": "Policy Revisions and Amendments",
-                "content": "For any inquiries, concerns, or requests related to this Privacy Policy or the processing of your personal data, contact Oryvia through the following channels:\n• 📧 Email: support@oryvia.com\n• 🌐 Website: www.oryvia.com\nLast Updated: [Insert Date]"
+                "content": "For any inquiries, concerns, or requests related to this Privacy Policy or the processing of your personal data, contact Oryvia through the following channels:\n• 📧 Email: info@oryvia.in\n• 🌐 Website: www.oryvia.in\nLast Updated: October 2025"
             },
             {
                 "title": "Contact Information",
@@ -217,12 +217,12 @@
     },
     "terms": {
         "title": "Oryvia Terms & Conditions",
-        "intro": "Welcome to Oryvia\nBy accessing or using our website [Oryvia link], you acknowledge that you have read, understood, and agree to comply with the following Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our services.",
+        "intro": "Welcome to Oryvia\nBy accessing or using our website www.oryvia.in, you acknowledge that you have read, understood, and agree to comply with the following Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our services.",
         "sections": [
             {
                 "heading": "Ownership & Intellectual Property Rights",
                 "content": [
-                    "We declare that all materials posted and published on www.oryvia.com, including but not limited to the website design, content, logo, layout, graphics, trademarks, reviews, service descriptions, and visual elements, are the exclusive property of Oryvia.",
+                    "We declare that all materials posted and published on oryvia.in, including but not limited to the website design, content, logo, layout, graphics, trademarks, reviews, service descriptions, and visual elements, are the exclusive property of Oryvia.",
                     "All such content is protected under applicable copyright, intellectual property, and trademark laws. Any form of reproduction, copying, modification, transfer, distribution, or exploitation of Oryvia’s property — whether for commercial or non-commercial purposes — is strictly prohibited without explicit written consent from the company.",
                     "No individual, company, or third party is authorized to use our brand name, logo, content, or design for marketing, publicity, or promotional purposes without prior written approval.",
                     "However, clients and users are free to share genuine feedback or reviews about their experience with Oryvia, provided it does not involve unauthorized use of our brand identity or protected assets."
@@ -288,8 +288,8 @@
             {
                 "heading": "Contact",
                 "content": [
-                    "If you have any questions regarding these Terms, please contact us at: [Your Email]",
-                    "Last updated -"
+                    "If you have any questions regarding these Terms, please contact us at: info@oryvia.in",
+                    "Last updated - October 2025"
                 ]
             }
         ]
@@ -317,7 +317,7 @@
                     "name": "company"
                 },
                 {
-                    "label": "www.eample.com(optional)",
+                    "label": "www.example.com(optional)",
                     "type": "url",
                     "name": "website"
                 },
@@ -424,8 +424,8 @@
             ],
             "description": "I work end-to-end — writing backend logic, testing every flow, and fixing anything that doesn’t hold up. If something’s not working right, I’ll find it, break it, and rebuild it better. I don’t cut corners, and I don’t ship until it’s solid.",
             "quoteSection": {
-                "title": "Not Just Another Project…",
-                "quote": "Would love to meet the person who trusted us — not just to work together, but maybe for a game too. Badminton? Table tennis? I’m in. Just don’t expect me to go easy… I don’t lose without a fight. 😄"
+                "title": "If We Get To work Together…",
+                "quote": "Would love to meet the person who trusted us — not just to work together, but maybe for a game too. Badminton? Table tennis? I’m in. Just don’t expect me to go easy… I don’t lose without a fight."
             }
         }
     },
@@ -440,68 +440,16 @@
         },
         "about": {
             "heading": "About",
-            "content": "At Oxyvia, we’re not just building websites – we’re engineering digital experiences that drive performance, engagement, and long-term growth. Our work blends creative design with powerful technology to deliver solutions that are built around your business goals. We specialize in end-to-end digital execution: from strategy and UI/UX design to development and deployment – all handled with clarity, professionalism, and a deep understanding of what modern businesses need to thrive online. Whether you’re launching a startup, refreshing your brand, or scaling your online presence, we bring the expertise and attention to detail that ensures your project doesn’t just go live – it succeeds.",
+            "content": "At Oryvia, we’re not just building websites – we’re engineering digital experiences that drive performance, engagement, and long-term growth. Our work blends creative design with powerful technology to deliver solutions that are built around your business goals. We specialize in end-to-end digital execution: from strategy and UI/UX design to development and deployment – all handled with clarity, professionalism, and a deep understanding of what modern businesses need to thrive online. Whether you’re launching a startup, refreshing your brand, or scaling your online presence, we bring the expertise and attention to detail that ensures your project doesn’t just go live – it succeeds.",
             "buttonText": "Learn more",
             "highlighted": [
-                "Oxyvia"
+                "Oryvia"
             ]
         },
-        "services": {
-            "title": "Services",
-            "uiux": {
-                "title": "UIUX",
-                "features": [
-                    "Brand Integration",
-                    "Wireframing",
-                    "High/Low fidelity design",
-                    "UI Redesign",
-                    "System Design"
-                ],
-                "video": "/videos/v1.webm",
-                "cta": "More Info"
-            },
-            "websiteMaintenance": {
-                "title": "Website Maintenance",
-                "features": [
-                    "Content Update",
-                    "Performance Optimization",
-                    "SEO Maintenance",
-                    "Support & Troubleshooting",
-                    "Modules Updates"
-                ],
-                "video": "/videos/v2.webm",
-                "cta": "More Info"
-            },
-            "customWebsite": {
-                "title": "Custom Website",
-                "features": [
-                    "Consultation & Requirement gathering",
-                    "Custom UI/UX",
-                    "Frontend",
-                    "Backend",
-                    "Dynamic Features & Integration"
-                ],
-                "video": "/videos/v3.webm",
-                "cta": "More Info"
-            },
-            "websiteRedesign": {
-                "title": "Website Redesign",
-                "features": [
-                    "UI/UX Revamp",
-                    "Responsive Design",
-                    "Content & Visual Refresh",
-                    "SEO & Performance Optimization",
-                    "Final Testing & Launch Support"
-                ],
-                "video": "/videos/v4.webm",
-                "cta": "More Info"
-            }
-        },
-        "newServices": [
+        "services": [
             {
                 "id": 1,
                 "title": "UI/UX \nDesign",
-                "description": "We craft intuitive and user-centered digital experiences that align with your brand identity. From wireframes to high-fidelity prototypes, our design process ensures seamless navigation, accessibility, and a cohesive interface that delights your users at every interaction.",
                 "image": "/images/p1.png",
                 "mobileImage": "/images/m1.png",
                 "link": "/services/ui-ux",
@@ -510,7 +458,6 @@
             {
                 "id": 2,
                 "title": "Website \n Maintenance",
-                "description": "Keep your website running at peak performance with regular updates, security patches, backups, uptime monitoring, and performance optimization. We handle the backend so you can focus on growing your business without disruptions.",
                 "image": "/images/p2.png",
                 "mobileImage": "/images/m2.png",
                 "link": "/services/website-maintenance",
@@ -519,7 +466,6 @@
             {
                 "id": 3,
                 "title": "Custom \nDevelopment",
-                "description": "From frontend interactions to backend architecture, we build custom web solutions tailored to your unique business needs. Whether it's an e-commerce platform, web app, or internal tool, our full-stack development ensures functionality, scalability, and performance.",
                 "image": "/images/p3.png",
                 "mobileImage": "/images/m3.png",
                 "link": "/services/custom-website",
@@ -528,7 +474,6 @@
             {
                 "id": 4,
                 "title": "Website \nRedesign",
-                "description": "Transform your outdated website into a modern, responsive, and visually compelling digital experience. Our redesign process focuses on user behavior, brand alignment, and conversion-driven layouts to ensure your site stands out and delivers results.",
                 "image": "/images/p4.png",
                 "mobileImage": "/images/m4.png",
                 "link": "/services/website-redesign",
@@ -572,22 +517,10 @@
             "cta": "View Details →",
             "projects": [
                 {
-                    "title": "E-Commerce Redesign",
-                    "description": "Revamped a multi-vendor platform with enhanced UI, seamless checkout, and scalable architecture.",
-                    "image": "/images/s1.svg",
-                    "link": "#"
-                },
-                {
-                    "title": "SaaS Dashboard",
-                    "description": "Designed and developed a data-heavy analytics dashboard for a B2B SaaS product.",
-                    "image": "/images/s2.svg",
-                    "link": "#"
-                },
-                {
-                    "title": "Portfolio Builder",
-                    "description": "Crafted a custom site builder for creatives to showcase their portfolios without coding.",
-                    "image": "/images/s4.svg",
-                    "link": "#"
+                    "title": "WallPickr",
+                    "description": "A clean, fast, and modern wallpaper browsing experience – designed and built by our team.",
+                    "image": "/images/wallpickr.png",
+                    "link": "https://wallpickr.vercel.app"
                 }
             ]
         },
@@ -658,19 +591,19 @@
                 {
                     "name": "Abhijeet Dwivedi",
                     "role": "Lead Designer",
-                    "image": "/images/s2.svg",
+                    "image": "/images/abhijeet.jpg",
                     "link": "/profile/abhijeet-dwivedi"
                 },
                 {
                     "name": "Ayush Saini",
                     "role": "Developer",
-                    "image": "/images/s3.svg",
+                    "image": "/images/ayush.jpg",
                     "link": "/profile/ayush-saini"
                 },
                 {
                     "name": "Saksham Pandey",
                     "role": "Developer & Tester",
-                    "image": "/images/s5.svg",
+                    "image": "/images/saksham.jpg",
                     "link": "/profile/saksham-pandey"
                 }
             ]
@@ -712,29 +645,15 @@
     },
     "work": {
         "id": "projects",
-        "heading": "Featured Projects",
-        "description": "Explore how we've helped businesses grow through modern web design, custom development, and interactive experiences.",
+        "heading": "WallPickr",
+        "description": "A clean, fast, and modern wallpaper browsing experience – designed and built by our team.",
         "projects": [
             {
                 "title": "E-Commerce Redesign",
                 "description": "Revamped a multi-vendor platform with enhanced UI, seamless checkout, and scalable architecture.",
-                "image": "/images/s1.svg",
+                "image": "/images/wallpickr.png",
                 "cta": "View Details →",
-                "link": "#"
-            },
-            {
-                "title": "SaaS Dashboard",
-                "description": "Designed and developed a data-heavy analytics dashboard for a B2B SaaS product.",
-                "image": "/images/s2.svg",
-                "cta": "View Details →",
-                "link": "#"
-            },
-            {
-                "title": "Portfolio Builder",
-                "description": "Crafted a custom site builder for creatives to showcase their portfolios without coding.",
-                "image": "/images/s4.svg",
-                "cta": "View Details →",
-                "link": "#"
+                "link": "https://wallpickr.vercel.app"
             }
         ]
     }

@@ -39,8 +39,8 @@ function MediaTextBlock({ image,mobileImage, imageAlt = 'Service image', service
             <article className={contentClass}>
                 {services.map((service, index) => (
                     <div key={index}>
-                        <h3 className="label-heading">• {service.title}</h3>
-                        <p className="body-default whitespace-pre-line text-justify">
+                        <h3 className="intro-text">• {service.title}</h3>
+                        <p className="body-default text-muted whitespace-pre-line text-justify">
                             {service.description}
                         </p>
                     </div>

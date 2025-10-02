@@ -28,16 +28,13 @@ export default function ContactPage() {
     }));
 
     return (
-        <main className="my-36 space-y-8 md:space-y-12 lg:space-y-16">
+        <main className="px-4 space-y-8 md:space-y-12 lg:space-y-16 my-26 md:my-36">
             <header className="text-center space-y-10" id="contact-header">
                 <h1 className="main-page-heading">{heading}</h1>
                 <p className="intro-text whitespace-pre-line">{subheading}</p>
             </header>
 
-            <section
-                className="max-w-7xl mx-auto space-y-10"
-                aria-labelledby="contact-form-heading"
-            >
+            <section className="max-w-7xl mx-auto " aria-labelledby="contact-form-heading">
                 <h2 id="contact-form-heading" className="sr-only">
                     Contact Form
                 </h2>

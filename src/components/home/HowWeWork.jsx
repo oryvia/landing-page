@@ -13,18 +13,18 @@ const HowWeWork = () => {
     } = howWeWork ?? {};
 
     return (
-        <section className="relative px-5 md:px-8 lg:px-16">
-            <div className="relative z-10 max-w-7xl mx-auto space-y-4">
+        <section className="relative px-4">
+            <div className="relative z-10 max-w-7xl mx-auto space-y-2">
                 {subheading && <p className="minor-heading">{subheading}</p>}
-                {heading && <h2 className="section-heading mb-4 max-w-3xl">{heading}</h2>}
-                {description && <p className="body-default max-w-3xl">{description}</p>}
+                {heading && <h2 className="section-heading max-w-3xl">{heading}</h2>}
+                {description && <p className="body-default text-muted max-w-3xl">{description}</p>}
             </div>
 
             {steps.length > 0 && (
-                <div className="relative z-10 mt-10 flex flex-col max-w-5xl mx-auto px-6 md:px-14 md:space-y-0 space-y-16">
+                <div className="relative z-10 mt-10 md:mt-12 flex flex-col max-w-5xl mx-auto px-8 md:px-14 space-y-16">
 
                     <div
-                        className="absolute inset-0 bg-cover bg-center opacity-10 "
+                        className="absolute inset-0 bg-cover bg-center opacity-10"
                         style={{ backgroundImage: "url('/images/grid.svg')" }}
                         aria-hidden="true"
                     ></div>
@@ -35,7 +35,7 @@ const HowWeWork = () => {
                 </div>
             )}
 
-            <p className="relative z-10 mt-16 text-center caption ">
+            <p className="relative z-10 mt-8 md:mt-10 text-center caption text-subtle">
                 *Ready to be delivered!
             </p>
         </section>

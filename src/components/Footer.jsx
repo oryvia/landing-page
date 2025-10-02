@@ -10,9 +10,9 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-    { label: 'LinkedIn', href: 'https://linkedin.com' },
-    { label: 'Twitter', href: 'https://twitter.com' },
-    { label: 'Instagram', href: 'https://instagram.com' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/oryvia/posts/?feedView=all' },
+    { label: 'X', href: 'https://x.com/oryvia_in?s=21' },
+    { label: 'Instagram', href: 'https://www.instagram.com/oryvia.in?utm_source=ig_web_button_share_sheet&igsh=dGd5MThxd3M1bnJ6' },
 ];
 
 export default function NewFooter() {
@@ -31,7 +31,7 @@ export default function NewFooter() {
                         priority
                     />
                     <p className="text-sm text-gray-500">
-                        Empowering brands with impactful digital experiences.
+                        Built with precision. Designed for growth.
                     </p>
                 </div>
 

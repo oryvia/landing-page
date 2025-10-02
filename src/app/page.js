@@ -8,12 +8,13 @@ import TechnologiesWeUse from "@/components/home/TechnologiesWeUse";
 import Testimonials from "@/components/home/Testimonials";
 import Work from "@/components/home/Project";
 import HowWeWork from "@/components/home/HowWeWork";
+import CaseStudyWallpickr from "@/components/test";
 
 export default function Home() {
     return (
         <main>
             <section
-                className="space-y-8 md:space-y-12 lg:space-y-16 my-36"
+                className="space-y-8 md:space-y-12 lg:space-y-16 my-26 md:my-36"
                 suppressHydrationWarning
             >
                 <HeroSection />
@@ -22,10 +23,11 @@ export default function Home() {
                 {/* <TechnologiesWeUse /> */}
                 <Work />
                 <HowWeWork />
-                <Testimonials />
+                {/* <Testimonials /> */}
                 <Team />
                 <FaqSection />
                 <GetInTouch />
+                {/* <CaseStudyWallpickr/> */}
             </section>
         </main>
     );

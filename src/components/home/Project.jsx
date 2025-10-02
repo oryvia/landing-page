@@ -18,20 +18,20 @@ export default function Work() {
             aria-labelledby="featured-projects-heading"
             aria-label="Featured projects section"
             role="region"
-            className="px-5 md:px-8 lg:px-16"
+            className="p-4"
         >
-            <div className="max-w-7xl mx-auto space-y-10 md:space-y-12">
+            <div className="max-w-7xl mx-auto space-y-6 md:space-y-8">
                 <header className="space-y-2">
                     <h2 id="featured-projects-heading" className="section-heading">
                         {heading}
                     </h2>
                     {description && (
-                        <p className="max-w-3xl body-default">
+                        <p className="max-w-3xl body-default text-muted">
                             {description}
                         </p>
                     )}
                 </header>
-                <div className="grid gap-8 md:gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-8 md:gap-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                         {projects.map(
                             (
                                 { title, image, description, ...rest },
@@ -44,7 +44,7 @@ export default function Work() {
                                         alt={title}
                                         description={description}
                                         {...rest}
-                                        cta={cta || "Read more →"}
+                                        cta={cta}
                                     />
                             )
                         )}

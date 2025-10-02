@@ -15,7 +15,7 @@ const HeroSection = () => {
                     animationData={heroAnimation}
                     loop
                     autoplay
-                    className="w-full h-full object-cover blur-[1px] sm:blur-sm md:blur"
+                    className="w-full h-full object-cover blur-xs sm:blur-sm md:blur-md"
                     style={{ width: '100%', height: '100%' }}
                     loading="lazy"
                 />

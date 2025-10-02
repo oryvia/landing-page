@@ -1,0 +1,47 @@
+'use client'
+import { useState } from "react";
+
+export default function FeatureShowcase({
+    features,
+    defaultImage = "/images/default.png",
+    title = "Feature Showcase",
+}) {
+    const [activeImage, setActiveImage] = useState(defaultImage);
+
+    return (
+        <section className="bg-gray-50 py-16 px-6 md:px-16">
+            <div className="max-w-6xl mx-auto">
+                {/* Title */}
+                <h2 className="text-3xl font-bold text-center mb-12">{title}</h2>
+
+                <div className="grid md:grid-cols-2 gap-12 items-center">
+                    {/* Buttons */}
+                    <div className="flex flex-col space-y-4 w-fit">
+                        {features.map((feature, idx) => (
+                            <button
+                                key={idx}
+                                onClick={() => setActiveImage(feature.image)}
+                                className={`px-4 py-3 rounded-full text-sm font-medium transition
+                    ${activeImage === feature.image
+                                        ? "bg-black text-white"
+                                        : "bg-black text-white hover:bg-gray-900 hover:text-white"
+                                    }`}
+                            >
+                                {feature.name}
+                            </button>
+                        ))}
+                    </div>
+
+                    {/* Image Preview */}
+                    <div className="rounded-3xl overflow-hidden shadow-lg bg-gray-200 h-[400px] flex items-center justify-center">
+                        <img
+                            src={activeImage}
+                            alt="Feature preview"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
