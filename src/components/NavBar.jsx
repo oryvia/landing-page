@@ -60,8 +60,9 @@ const NavLinkItem = ({
                         } ${isOpen ? 'max-h-96 opacity-100 scale-y-100' : 'max-h-0 opacity-0 scale-y-0'}`}
                 >
                     {subLinks.map(({ label, href }) => (
-                        <Link key={label} href={href} onClick={() => { onClick(); toggleDropdown(null); }}>
+                        <Link key={label} href={href} onClick={() => { onClick(); toggleDropdown(null); }} rel="internal" itemProp="url" aria-current={currentPath === href ? "page" : undefined}>
                             <span
+                                itemProp="name"
                                 className={`block w-full text-sm px-3 rounded-3xl hover:bg-accent hover:text-white ${currentPath === href ? 'font-medium text-accent' : 'text-dark'} ${isMobile ? 'py-2 nav-link' : 'py-2 px-4'}`}
                             >
                                 {label}
@@ -75,8 +76,9 @@ const NavLinkItem = ({
 
     // Regular nav link
     return (
-        <Link key={label} href={href} onClick={onClick} className="w-full">
+        <Link key={label} href={href} onClick={onClick} className="w-full" rel="internal" itemProp="url" aria-current={currentPath === href ? "page" : undefined}>
             <span
+                itemProp="name"
                 className={`block w-full rounded-3xl text-sm transition-colors ${isMobile ? 'nav-link px-3 py-2 hover:bg-accent hover:text-white' : 'hover:text-accent'} ${hasMounted && currentPath === href ? 'font-medium text-dark' : 'text-dark'
                     }`}
             >
@@ -142,12 +144,14 @@ const NavBar = () => {
             ref={navRef}
             className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-1rem)] max-w-7xl bg-white/10 backdrop-blur-sm border border-gray-200 rounded-3xl px-6 py-3 flex items-center justify-between"
             aria-label="Main Navigation"
+            itemScope
+            itemType="https://schema.org/SiteNavigationElement"
         >
             {/* Logo (left side) */}
             <Link href="/" aria-label="Oryvia Home" className="flex items-center">
                 <Image
                     src="/images/logo.svg"
-                    alt="Oryvia Logo"
+                    alt="Oryvia Logo - Digital Solutions Company"
                     width={40}
                     height={40}
                     className="w-10 h-10"

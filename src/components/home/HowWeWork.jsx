@@ -1,10 +1,10 @@
 // components/HowWeWork.jsx
 import React from "react";
-import { home } from "@/data/data.json";
+import data from "@/data/data.json";
 import WorkFlowCard from "../WorkFlowCard";
 
 const HowWeWork = () => {
-    const { howWeWork } = home ?? {};
+    const { howWeWork } = data.home ?? {};
     const {
         subheading,
         heading,

@@ -1,6 +1,5 @@
 import React from "react";
 import data from "@/data/data.json";
-import Button from "../Button";
 
 const Testimonials = () => {
     const { heading, description, cta, testimonials } = data.home.testimonialsSection;

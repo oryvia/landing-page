@@ -2,7 +2,7 @@
 import { memo } from 'react';
 import Lottie from 'lottie-react';
 import data from "@/data/data.json";
-import heroAnimation from '@/animations/hero.json';
+import heroAnimation from '@/animations/software-company-hero-oryvia.json';
 
 const HeroSection = () => {
     const heroData = data?.home?.hero;

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.oryvia.in
+
+# Sitemaps
+Sitemap: https://www.oryvia.in/sitemap.xml

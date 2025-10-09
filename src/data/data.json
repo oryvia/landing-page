@@ -1,7 +1,7 @@
 {
     "aboutPage": {
         "heading": "Oryvia’ A Development Based Company",
-        "heroImage": "/images/team.png",
+        "heroImage": "/images/software-company-about-hero-oryvia.webp",
         "dividerImage": "/images/divider.jpg",
         "heroImageAlt": "Team working together",
         "dividerImageAlt": "Abstract swirl divider",
@@ -217,7 +217,7 @@
     },
     "terms": {
         "title": "Oryvia Terms & Conditions",
-        "intro": "Welcome to Oryvia\nBy accessing or using our website www.oryvia.in, you acknowledge that you have read, understood, and agree to comply with the following Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our services.",
+        "intro": "Welcome to Oryvia\nBy accessing or using our website www.oryvia.in , you acknowledge that you have read, understood, and agree to comply with the following Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our services.",
         "sections": [
             {
                 "heading": "Ownership & Intellectual Property Rights",
@@ -450,7 +450,7 @@
             {
                 "id": 1,
                 "title": "UI/UX \nDesign",
-                "image": "/images/p1.png",
+                "image": "/images/ui-ux-design-service-oryvia.webp",
                 "mobileImage": "/images/m1.png",
                 "link": "/services/ui-ux",
                 "cta": "Learn More"
@@ -458,7 +458,7 @@
             {
                 "id": 2,
                 "title": "Website \n Maintenance",
-                "image": "/images/p2.png",
+                "image": "/images/website-maintenance-service-oryvia.webp",
                 "mobileImage": "/images/m2.png",
                 "link": "/services/website-maintenance",
                 "cta": "Learn More"
@@ -466,7 +466,7 @@
             {
                 "id": 3,
                 "title": "Custom \nDevelopment",
-                "image": "/images/p3.png",
+                "image": "/images/custom-website-development-oryvia.webp",
                 "mobileImage": "/images/m3.png",
                 "link": "/services/custom-website",
                 "cta": "Learn More"
@@ -474,7 +474,7 @@
             {
                 "id": 4,
                 "title": "Website \nRedesign",
-                "image": "/images/p4.png",
+                "image": "/images/website-redesign-service-oryvia.webp",
                 "mobileImage": "/images/m4.png",
                 "link": "/services/website-redesign",
                 "cta": "Learn More"
@@ -519,7 +519,7 @@
                 {
                     "title": "WallPickr",
                     "description": "A clean, fast, and modern wallpaper browsing experience – designed and built by our team.",
-                    "image": "/images/wallpickr.png",
+                    "image": "/images/wallpickr-web-project-showcase-oryvia.webp",
                     "link": "https://wallpickr.vercel.app"
                 }
             ]
@@ -591,19 +591,19 @@
                 {
                     "name": "Abhijeet Dwivedi",
                     "role": "Lead Designer",
-                    "image": "/images/abhijeet.jpg",
+                    "image": "/images/abhijeet-team-member-oryvia.webp",
                     "link": "/profile/abhijeet-dwivedi"
                 },
                 {
                     "name": "Ayush Saini",
                     "role": "Developer",
-                    "image": "/images/ayush.jpg",
+                    "image": "/images/ayush-team-member-oryvia.webp",
                     "link": "/profile/ayush-saini"
                 },
                 {
                     "name": "Saksham Pandey",
                     "role": "Developer & Tester",
-                    "image": "/images/saksham.jpg",
+                    "image": "/images/saksham-team-member-oryvia.webp",
                     "link": "/profile/saksham-pandey"
                 }
             ]
@@ -645,13 +645,13 @@
     },
     "work": {
         "id": "projects",
-        "heading": "WallPickr",
-        "description": "A clean, fast, and modern wallpaper browsing experience – designed and built by our team.",
+        "heading": "Work",
+        "description": "Explore Oryvia’s portfolio featuring high-performance websites, scalable platforms, and branding projects crafted for startups and businesses. See how we turn ideas into impactful digital experiences.",
         "projects": [
             {
-                "title": "E-Commerce Redesign",
-                "description": "Revamped a multi-vendor platform with enhanced UI, seamless checkout, and scalable architecture.",
-                "image": "/images/wallpickr.png",
+                "title": "WallPickr",
+                "description": "A clean, fast, and modern wallpaper browsing experience – designed and built by our team.",
+                "image": "/images/wallpickr-web-project-showcase-oryvia.webp",
                 "cta": "View Live →",
                 "link": "https://wallpickr.vercel.app"
             }
